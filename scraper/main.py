@@ -1,11 +1,10 @@
-from info_scraper import get_restaurant_info
+from scraper.scrapers.info_scraper import get_restaurant_info
 
 
 def scrape_all_data(url_list):
     """Scrapes all data from the urls passed and stores them in a JSON file"""
 
     restaurant_data = get_restaurant_info(url_list=url_list, file_name="Restaurants.json")
-    # No need to call `scrape_zomato_menu` directly as it's already handled in `get_restaurant_info`
     return restaurant_data
 
 

@@ -1,8 +1,9 @@
 import json
 import requests
 from bs4 import BeautifulSoup
-from menu_scraper1 import scrape_zomato_menu
+from scraper.scrapers.menu_scraper import scrape_zomato_menu
 import asyncio 
+import os  # Import os module to handle directory creation
 
 headers = {'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36'}
 
@@ -46,11 +47,13 @@ def get_info(url):
 
 def save_json(file_name, data):
     """ Save the data as a JSON file """
+    # Create the directory if it doesn't exist
+    os.makedirs(os.path.dirname(file_name), exist_ok=True)
     with open(file_name, 'w') as json_file:
         json.dump(data, json_file, indent=4)
 
 
-def get_restaurant_info(url_list, save=True, file_name="Restaurants.json"):
+def get_restaurant_info(url_list, save=True, file_name="../data/Restaurants.json"):
     """ Get Restaurant Information from all urls passed and include menu """
 
     # Collecting the data

@@ -2691,7 +2691,10 @@
     "address": "M 28, 1st Floor, Gole Market, Mahanagar, Lucknow, Mahanagar, Lucknow, Lucknow, 226006, India",
     "opening_hours": "8am – 11:30pm (Today)",
     "image_url": "https://b.zmtcdn.com/data/pictures/chains/1/800501/36ef4abf60d30eb23a805a5e6c28e335.jpg",
-    "phone_number": "+917380315333"
+    "rating": "3.7",
+    "rating_count": 496,
+    "cuisine": "North Indian, Chinese, Street Food, Beverages, Desserts, BBQ, Continental, Mithai",
+    "payment_methods": "Cash, Cards and Meal Coupons accepted\nDigital payments accepted"
   },
   {
     "name": "Ice Cream Sundae, Shakes And More",
@@ -3414,7 +3417,10 @@
     "address": "Shop 66, Hazratganj Market, Hazratganj, Lucknow, Hazratganj, Lucknow, Lucknow, 226001, India",
     "opening_hours": "12midnight – 4am, 12noon – 12midnight (Today)",
     "image_url": "https://b.zmtcdn.com/data/pictures/3/19583783/f41a4bd735a768fdbe4bd9d64d135b05.jpg",
-    "phone_number": "+918318113509"
+    "rating": "4.0",
+    "rating_count": 33,
+    "cuisine": "Ice Cream, Desserts, Beverages",
+    "payment_methods": "\nDigital payments accepted"
   },
   {
     "name": "Neelkanth Green",
@@ -5577,7 +5583,10 @@
     "address": "3/116, Vivek Khand, Gomti Nagar, Lucknow, Gomti Nagar, Lucknow, Lucknow, India",
     "opening_hours": "11am – 11pm (Today)",
     "image_url": "https://b.zmtcdn.com/data/pictures/2/800642/c968bec8bf975d18d0d5176a2b9e9042.jpg",
-    "phone_number": "+915224070009, +919151665555, +915226555555"
+    "rating": "4.0",
+    "rating_count": 517,
+    "cuisine": "North Indian, Chinese, South Indian, Fast Food, Pizza, Desserts, Beverages",
+    "payment_methods": "Cash and Cards accepted\nDigital payments accepted"
   },
   {
     "name": "Fo'sho - Pan Asian & Italian Bistro",
@@ -6981,7 +6990,10 @@
     "address": "11, Habibullah Estate, Hazratganj, Lucknow, Hazratganj, Lucknow, Lucknow, 226001, India",
     "opening_hours": "12:15pm – 11pm (Today)",
     "image_url": "https://b.zmtcdn.com/data/pictures/3/21376323/bc4f656b8bfbef66a3d7557a629e3bfd.jpg",
-    "phone_number": "+917753851777"
+    "rating": "4.4",
+    "rating_count": 371,
+    "cuisine": "Asian, Italian, Japanese, Korean",
+    "payment_methods": ""
   },
   {
     "name": "Tanatan",
@@ -8105,7 +8117,10 @@
     "address": "94, Ground & 1st Floor, Durga Bhawan, Mahatma Gandhi Marg, Mall Road, Hazratganj, Lucknow, Hazratganj, Lucknow, Lucknow, India",
     "opening_hours": "12noon – 12midnight (Today)",
     "image_url": "https://b.zmtcdn.com/data/pictures/8/19657198/f0ee76464c6b98ab79f7815650cfa59f.jpeg",
-    "phone_number": "+918657768894"
+    "rating": "4.5",
+    "rating_count": 3629,
+    "cuisine": "North Indian, Lucknowi, Desserts, Beverages",
+    "payment_methods": "Cash and Cards accepted"
   },
   {
     "name": "Curry Leaf",
@@ -9708,7 +9723,10 @@
     "address": "C-6, Sector-F, Zone-12, Kapoorthala, Lucknow, Kapoorthala, Lucknow, Lucknow, 226024, India",
     "opening_hours": "10am – 11pm (Today)",
     "image_url": "https://b.zmtcdn.com/data/pictures/chains/6/18261976/6dbd01665e1893e0db6b993c1d5078d0.jpg",
-    "phone_number": "+919415500558"
+    "rating": "4.3",
+    "rating_count": 148,
+    "cuisine": "South Indian, Desserts, Shake, Beverages",
+    "payment_methods": "\nDigital payments accepted"
   },
   {
     "name": "Purple Basil",
@@ -11572,6 +11590,9 @@
     "address": "Golf City, Near Best Price Walmart, Gomti Nagar, Lucknow, Gomti Nagar, Lucknow, Lucknow, 226030, India",
     "opening_hours": "12:30pm – 11:30pm (Today)",
     "image_url": "https://b.zmtcdn.com/data/pictures/4/20913014/6b60d44ad7f7fa19ba4ca81820c885ac.jpeg",
-    "phone_number": "+919076619953"
+    "rating": "4.9",
+    "rating_count": 1120,
+    "cuisine": "North Indian, Sandwich, Pizza, Sushi, Italian, Fast Food, Mexican, Salad",
+    "payment_methods": "\nDigital payments accepted"
   }
 ]
