@@ -1,4 +1,5 @@
 import json
+from collections import defaultdict
 
 # Load raw data
 with open("./Restaurants.json", "r", encoding="utf-8") as infile:
@@ -17,15 +18,14 @@ for entry in raw_data:
     ]))
 
     menu = entry.get("menu", [])
-    formatted_menu = []
+    category_wise_menu = defaultdict(list)
 
     for item in menu:
         if isinstance(item, dict):
-            # If item already has full information, use it directly
-            formatted_menu.append(item)
+            category = item.get("attributes", {}).get("category", "Uncategorized")
+            category_wise_menu[category].append(item)
         elif isinstance(item, list) and len(item) == 2:
             name, price = item
-            # Remove currency symbol if present
             clean_price = price.replace("\\u20b9", "").replace("\u20b9", "").replace("₹", "").strip()
 
             try:
@@ -33,14 +33,19 @@ for entry in raw_data:
             except ValueError:
                 price_value = 0.0
 
-            formatted_menu.append({
+            category_wise_menu["Uncategorized"].append({
                 "name": name,
                 "description": "",
                 "price": price_value,
                 "attributes": {}
             })
 
-    # Determine dietary options from the menu
+    # ⚡️ Only keep up to 4 dishes per category
+    formatted_menu = []
+    for dishes in category_wise_menu.values():
+        formatted_menu.extend(dishes[:3])
+
+    # Determine dietary options from the selected menu
     dietary_options = []
     for menu_item in formatted_menu:
         veg_nonveg = menu_item.get("attributes", {}).get("veg_nonveg")
@@ -55,16 +60,14 @@ for entry in raw_data:
         "address": full_address,
         "opening_hours": entry.get("opening_hours", ""),
         "image_url": entry.get("image_url", ""),
+        "phone_number": entry.get("telephone", ""),
         "rating": entry.get("rating", ""),
         "rating_count": entry.get("rating_count", ""),
+        "features": entry.get("payment_methods", ""),
         "cuisine": entry.get("cuisine", ""),
-        "payment_methods": entry.get("payment_methods", ""),
-        
-        
-
     }
     cleaned_data.append(cleaned_entry)
 
 # Save cleaned data
-with open("./data/knowledgebase.json", "w", encoding="utf-8") as outfile:
+with open("knowledgebase.json", "w", encoding="utf-8") as outfile:
     json.dump(cleaned_data, outfile, indent=2, ensure_ascii=False)
