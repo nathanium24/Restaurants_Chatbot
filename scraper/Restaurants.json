@@ -3,7 +3,7 @@
         "type": "Restaurant",
         "name": "Classic Restaurant - Treat",
         "url": "/lucknow/classic-restaurant-treat-mahanagar",
-        "opening_hours": "8am \u2013 11:30pm (Today)",
+        "opening_hours": "Opens at 8am",
         "address": {
             "street": "M 28, 1st Floor, Gole Market, Mahanagar, Lucknow",
             "locality": "Mahanagar, Lucknow",
@@ -23,116 +23,6 @@
         "rating": "3.7",
         "rating_count": 496,
         "menu": [
-            {
-                "name": "Deluxe Thali",
-                "description": "Paneer of the day with Dry Veg , Dal , Raita , Paratha/ ...read more",
-                "price": 400.0,
-                "attributes": {
-                    "veg_nonveg": "Veg",
-                    "category": "Deluxe Thali (11 AM - 11:30 PM)",
-                    "spice_level": 1
-                }
-            },
-            {
-                "name": "Deep Frying CornerFrench Fries",
-                "description": "Deep Frying Corner",
-                "price": 200.0,
-                "attributes": {
-                    "veg_nonveg": "Veg",
-                    "category": "Quick Bites",
-                    "spice_level": 1
-                }
-            },
-            {
-                "name": "French Fries",
-                "description": "Golden, crispy French fries, the ultimate comfort food indulgence.",
-                "price": 200.0,
-                "attributes": {
-                    "veg_nonveg": "Veg",
-                    "category": "Quick Bites",
-                    "spice_level": 1
-                }
-            },
-            {
-                "name": "Veg Cutlet [2 Pieces]",
-                "description": "Flavorful and crispy veg cutlets - a symphony of mixed vegetables, fragrant spices, ...read more",
-                "price": 160.0,
-                "attributes": {
-                    "veg_nonveg": "Veg",
-                    "category": "Quick Bites",
-                    "spice_level": 2
-                }
-            },
-            {
-                "name": "Veg Pakora [8 Pieces]",
-                "description": "Deep fried fritters (pakora) dunked in sour curd and besan curry tempered with ...read more",
-                "price": 190.0,
-                "attributes": {
-                    "veg_nonveg": "Veg",
-                    "category": "Quick Bites",
-                    "spice_level": 1
-                }
-            },
-            {
-                "name": "Onion Pakora [8 Pieces]",
-                "description": "Crunchy, golden bites of spicy perfection, our onion pakodas are a flavor explosion ...read more",
-                "price": 190.0,
-                "attributes": {
-                    "veg_nonveg": "Veg",
-                    "category": "Quick Bites",
-                    "spice_level": 2
-                }
-            },
-            {
-                "name": "Paneer Cutlet [2 Pieces]",
-                "description": "Savor the delightful crunch of our Paneer Cutlets - pan-fried patties made with ...read more",
-                "price": 200.0,
-                "attributes": {
-                    "veg_nonveg": "Veg",
-                    "category": "Quick Bites",
-                    "spice_level": 1
-                }
-            },
-            {
-                "name": "Paneer Pakora [8 Pieces]",
-                "description": "Paneer pakora are savory gram flour batter coated Indian cottage cheese fritters. Its ...read more",
-                "price": 220.0,
-                "attributes": {
-                    "veg_nonveg": "Veg",
-                    "category": "Quick Bites",
-                    "spice_level": 1
-                }
-            },
-            {
-                "name": "All Day SnacksChole BhatureBESTSELLER",
-                "description": "All Day Snacks",
-                "price": 200.0,
-                "attributes": {
-                    "veg_nonveg": "Veg",
-                    "category": "Quick Bites",
-                    "spice_level": 1
-                }
-            },
-            {
-                "name": "Chole BhatureBESTSELLER",
-                "description": "Punjabi concoction of spicy curried chickpeas (chole) and puffy fried white-flour bread (bhature)",
-                "price": 200.0,
-                "attributes": {
-                    "veg_nonveg": "Veg",
-                    "category": "Quick Bites",
-                    "spice_level": 2
-                }
-            },
-            {
-                "name": "Pav BhajiBESTSELLER",
-                "description": "Indian street food that consists of a spicy mix vegetable mash & soft ...read more",
-                "price": 200.0,
-                "attributes": {
-                    "veg_nonveg": "Veg",
-                    "category": "Quick Bites",
-                    "spice_level": 2
-                }
-            },
             {
                 "name": "Veg Sandwich",
                 "description": "A delightful combination of cucumber and tomato, in a flavorful mayo dressing, layered ...read more",
@@ -191,136 +81,6 @@
                     "veg_nonveg": "Veg",
                     "category": "Sandwiches & Burgers",
                     "spice_level": 2
-                }
-            },
-            {
-                "name": "Suji Batasha (12 Pcs)",
-                "description": "Bite sized suji delight stuffed with white chola, tamarind and spicy water.",
-                "price": 140.0,
-                "attributes": {
-                    "veg_nonveg": "Veg",
-                    "category": "Tounge Tingling Chaat",
-                    "spice_level": 2
-                }
-            },
-            {
-                "name": "Pani Batasha (12 Pieces)BESTSELLER",
-                "description": "Crispy puris filled with white chola with a  burst of tamarind and ...read more",
-                "price": 120.0,
-                "attributes": {
-                    "veg_nonveg": "Veg",
-                    "category": "Tounge Tingling Chaat",
-                    "spice_level": 1
-                }
-            },
-            {
-                "name": "Batasha Dahi Chutney (10 Pcs)",
-                "description": "A bite-sized delight packed with\u00a0white chola, yogurt and tamarind chutney.",
-                "price": 220.0,
-                "attributes": {
-                    "veg_nonveg": "Veg",
-                    "category": "Tounge Tingling Chaat",
-                    "spice_level": 1
-                }
-            },
-            {
-                "name": "Aloo Tikki (2 Pcs)BESTSELLER",
-                "description": "Savory potato patties served yogurt and coriander and tamarind chutney, for a flavor ...read more",
-                "price": 130.0,
-                "attributes": {
-                    "veg_nonveg": "Veg",
-                    "category": "Tounge Tingling Chaat",
-                    "spice_level": 1
-                }
-            },
-            {
-                "name": "Chatpati Matar",
-                "description": "1 Plate. A street-style delight featuring cooked white peas, with a burst of ...read more",
-                "price": 1301.0,
-                "attributes": {
-                    "veg_nonveg": "Veg",
-                    "category": "Tounge Tingling Chaat",
-                    "spice_level": 1
-                }
-            },
-            {
-                "name": "Papdi Chaat",
-                "description": "1 Plate. A playful mix of crispy papdi, creamy yogurt, tangy chutneys, and ...read more",
-                "price": 1301.0,
-                "attributes": {
-                    "veg_nonveg": "Veg",
-                    "category": "Tounge Tingling Chaat",
-                    "spice_level": 1
-                }
-            },
-            {
-                "name": "Dahi Vada (2 Pcs)BESTSELLER",
-                "description": "Melt-in-your-mouth lentil fritters immersed in a cool and creamy yogurt sauce, drizzled with ...read more",
-                "price": 130.0,
-                "attributes": {
-                    "veg_nonveg": "Veg",
-                    "category": "Tounge Tingling Chaat",
-                    "spice_level": 1
-                }
-            },
-            {
-                "name": "Basket Chaat",
-                "description": "1 Plate. Crispy fried baskets filled with savory potatoes, chickpeas, tangy chutneys, creamy ...read more",
-                "price": 2401.0,
-                "attributes": {
-                    "veg_nonveg": "Veg",
-                    "category": "Tounge Tingling Chaat",
-                    "spice_level": 1
-                }
-            },
-            {
-                "name": "Veg Frankie",
-                "description": "Thick crepes which enclose healthy vegetables, mushroom, capsicum.",
-                "price": 200.0,
-                "attributes": {
-                    "veg_nonveg": "Veg",
-                    "category": "Continental Dishes",
-                    "spice_level": 1
-                }
-            },
-            {
-                "name": "Paneer Frankie",
-                "description": "Crumbled paneer used as a stuffing in frankie rolls.",
-                "price": 220.0,
-                "attributes": {
-                    "veg_nonveg": "Veg",
-                    "category": "Continental Dishes",
-                    "spice_level": 1
-                }
-            },
-            {
-                "name": "Mushroom Frankie",
-                "description": "An interesting frankie roll with enclosed mushroom to make it just too delicious.",
-                "price": 240.0,
-                "attributes": {
-                    "veg_nonveg": "Veg",
-                    "category": "Continental Dishes",
-                    "spice_level": 1
-                }
-            },
-            {
-                "name": "Special Frankie",
-                "description": "Frankie stuffed with kaju mushroom roasted papad, paneer, cabbage and beans.",
-                "price": 250.0,
-                "attributes": {
-                    "veg_nonveg": "Veg",
-                    "category": "Continental Dishes",
-                    "spice_level": 1
-                }
-            },
-            {
-                "name": "Baked Veg",
-                "description": "Baked vegetable rich in fiber and nutrients makes a healthy and lovely snack.",
-                "price": 380.0,
-                "attributes": {
-                    "veg_nonveg": "Veg",
-                    "category": "Continental Dishes",
-                    "spice_level": 1
                 }
             },
             {
@@ -560,226 +320,6 @@
                 "attributes": {
                     "veg_nonveg": "Veg",
                     "category": "South Indian Dishes",
-                    "spice_level": 1
-                }
-            },
-            {
-                "name": "Veg Burger + Veg Sandwich (2 Pcs) + French Fries",
-                "description": "A delicious trio featuring a hearty veggie burger, a fresh vegetable-filled sandwich, and ...read more",
-                "price": 250.0,
-                "attributes": {
-                    "veg_nonveg": "Non-Veg",
-                    "category": "Value Combo (11 AM - 11:30 PM)",
-                    "spice_level": 1
-                }
-            },
-            {
-                "name": "Dal Makhani + Butter Naan [2 Qty]",
-                "description": "Dal makhani + baby naan [2 pieces]",
-                "price": 260.0,
-                "attributes": {
-                    "veg_nonveg": "Veg",
-                    "category": "Value Combo (11 AM - 11:30 PM)",
-                    "spice_level": 1
-                }
-            },
-            {
-                "name": "Veg Biryani + Raita",
-                "description": "Delicious rice preparation of aromatic rice and grated veggies seasoned with toasted, whole ...read more",
-                "price": 270.0,
-                "attributes": {
-                    "veg_nonveg": "Non-Veg",
-                    "category": "Value Combo (11 AM - 11:30 PM)",
-                    "spice_level": 1
-                }
-            },
-            {
-                "name": "Chole + Aloo Kulcha",
-                "description": "Enjoy the authentic flavors of our Chole paired with soft and flavorful potato-stuffed ...read more",
-                "price": 280.0,
-                "attributes": {
-                    "veg_nonveg": "Veg",
-                    "category": "Value Combo (11 AM - 11:30 PM)",
-                    "spice_level": 1
-                }
-            },
-            {
-                "name": "Paneer Butter Masala + Butter Naan [2 Qty]",
-                "description": "A flavour packed preparation with soft paneer cubes simmered in a rich and ...read more",
-                "price": 270.0,
-                "attributes": {
-                    "veg_nonveg": "Veg",
-                    "category": "Value Combo (11 AM - 11:30 PM)",
-                    "spice_level": 2
-                }
-            },
-            {
-                "name": "Paneer Butter Masala + Laccha Paratha [2 Qty]",
-                "description": "Tender paneer cubes simmered in a rich, velvety tomato gravy, served with layers ...read more",
-                "price": 270.0,
-                "attributes": {
-                    "veg_nonveg": "Veg",
-                    "category": "Value Combo (11 AM - 11:30 PM)",
-                    "spice_level": 2
-                }
-            },
-            {
-                "name": "Kadhai Paneer + Laccha Paratha [2 Qty]",
-                "description": "Fresh cottage cheese chunks cooked with paneer cubes, garlic, capsicum, onions, tomatoes, red ...read more",
-                "price": 270.0,
-                "attributes": {
-                    "veg_nonveg": "Veg",
-                    "category": "Value Combo (11 AM - 11:30 PM)",
-                    "spice_level": 1
-                }
-            },
-            {
-                "name": "Kadhai Paneer + Butter Naan [2 Qty]",
-                "description": "A tantalizing blend of paneer, bell peppers, and spices cooked in a traditional ...read more",
-                "price": 270.0,
-                "attributes": {
-                    "veg_nonveg": "Veg",
-                    "category": "Value Combo (11 AM - 11:30 PM)",
-                    "spice_level": 2
-                }
-            },
-            {
-                "name": "Handi Paneer + Laccha Paratha [2 Qty]",
-                "description": "Paneer cooked in a flavorful handi-style gravy, complemented by layers of buttery, crispy ...read more",
-                "price": 270.0,
-                "attributes": {
-                    "veg_nonveg": "Veg",
-                    "category": "Value Combo (11 AM - 11:30 PM)",
-                    "spice_level": 1
-                }
-            },
-            {
-                "name": "Handi Paneer + Butter Naan [2 Qty]",
-                "description": "Savor melt-in-your-mouth paneer cooked in a rich and creamy gravy, complemented perfectly by ...read more",
-                "price": 270.0,
-                "attributes": {
-                    "veg_nonveg": "Veg",
-                    "category": "Value Combo (11 AM - 11:30 PM)",
-                    "spice_level": 1
-                }
-            },
-            {
-                "name": "Paneer Lababdar + Laccha Paratha [2 Qty]",
-                "description": "Paneer cubes simmered in a rich and creamy gravy, perfectly complemented by the ...read more",
-                "price": 270.0,
-                "attributes": {
-                    "veg_nonveg": "Veg",
-                    "category": "Value Combo (11 AM - 11:30 PM)",
-                    "spice_level": 1
-                }
-            },
-            {
-                "name": "Paneer Lababdar + Butter Naan [2 Qty]",
-                "description": "Paneer cooked in a creamy cashewnut-based gravy, served with soft and buttery naan.",
-                "price": 270.0,
-                "attributes": {
-                    "veg_nonveg": "Veg",
-                    "category": "Value Combo (11 AM - 11:30 PM)",
-                    "spice_level": 1
-                }
-            },
-            {
-                "name": "Veg Noodles + Manchurian",
-                "description": "Noodles stir-fried with a colorful medley of vegetables, served with crispy and savory ...read more",
-                "price": 310.0,
-                "attributes": {
-                    "veg_nonveg": "Veg",
-                    "category": "Chinese Combos",
-                    "spice_level": 1
-                }
-            },
-            {
-                "name": "Fried Rice + Veg Manchurian",
-                "description": "Indulge in the perfect pairing of our Fried Rice and Manchurian \u2013 fragrant ...read more",
-                "price": 310.0,
-                "attributes": {
-                    "veg_nonveg": "Veg",
-                    "category": "Chinese Combos",
-                    "spice_level": 1
-                }
-            },
-            {
-                "name": "Noodles + Chilli Paneer",
-                "description": "A delicious combo of veg noodles and chilli paneer gravy to satiate your ...read more",
-                "price": 340.0,
-                "attributes": {
-                    "veg_nonveg": "Veg",
-                    "category": "Chinese Combos",
-                    "spice_level": 2
-                }
-            },
-            {
-                "name": "Fried Rice + Chilli Paneer",
-                "description": "Spice up your meal with our Chilli Paneer served with flavorful Fried Rice.",
-                "price": 340.0,
-                "attributes": {
-                    "veg_nonveg": "Veg",
-                    "category": "Chinese Combos",
-                    "spice_level": 2
-                }
-            },
-            {
-                "name": "Chola + Rice",
-                "description": "Spicy and flavorful chole simmered with aromatic spices and served with a bed ...read more",
-                "price": 240.0,
-                "attributes": {
-                    "veg_nonveg": "Veg",
-                    "category": "Rice Combos",
-                    "spice_level": 2
-                }
-            },
-            {
-                "name": "Dal Arhar + Steamed Rice",
-                "description": "An ultimate comfort dish, packed with flavor and protein. Perfectly paired with steamed ...read more",
-                "price": 240.0,
-                "attributes": {
-                    "veg_nonveg": "Veg",
-                    "category": "Rice Combos",
-                    "spice_level": 1
-                }
-            },
-            {
-                "name": "Dal Makhani + Jeera Rice",
-                "description": "A creamy and rich lentil delicacy paired with fragrant cumin-infused rice, a classic ...read more",
-                "price": 260.0,
-                "attributes": {
-                    "veg_nonveg": "Veg",
-                    "category": "Rice Combos",
-                    "spice_level": 1
-                }
-            },
-            {
-                "name": "Kadhai Paneer + Jeera Rice",
-                "description": "Experience the rich flavors of our Kadhai Paneer served with fragrant Jeera Rice.",
-                "price": 270.0,
-                "attributes": {
-                    "veg_nonveg": "Veg",
-                    "category": "Rice Combos",
-                    "spice_level": 1
-                }
-            },
-            {
-                "name": "Mushroom Matar Masala + Jeera Rice",
-                "description": "Delight in the earthy flavors of our Mushroom Matar Masala paired with fragrant ...read more",
-                "price": 270.0,
-                "attributes": {
-                    "veg_nonveg": "Veg",
-                    "category": "Rice Combos",
-                    "spice_level": 2
-                }
-            },
-            {
-                "name": "Handi Paneer +Jeera Rice",
-                "description": "Succulent paneer cooked in a tantalizing handi-style gravy, paired with aromatic cumin-infused rice.",
-                "price": 270.0,
-                "attributes": {
-                    "veg_nonveg": "Veg",
-                    "category": "Rice Combos",
                     "spice_level": 1
                 }
             },
@@ -1674,176 +1214,6 @@
                 }
             },
             {
-                "name": "Tandoori Roti",
-                "description": "|serves 1| a traditional Indian flatbread cooked in a clay oven,  perfect ...read more",
-                "price": 50.0,
-                "attributes": {
-                    "veg_nonveg": "Veg",
-                    "category": "Breads (11 AM - 11:30 PM)",
-                    "spice_level": 2
-                }
-            },
-            {
-                "name": "Butter Roti",
-                "description": "A soft Indian flatbread brushed with luscious butter, offering a rich and indulgent ...read more",
-                "price": 60.0,
-                "attributes": {
-                    "veg_nonveg": "Veg",
-                    "category": "Breads (11 AM - 11:30 PM)",
-                    "spice_level": 1
-                }
-            },
-            {
-                "name": "Plain Naan",
-                "description": "Indian bread baked to perfection in a tandoor oven, offering a light and ...read more",
-                "price": 110.0,
-                "attributes": {
-                    "veg_nonveg": "Veg",
-                    "category": "Breads (11 AM - 11:30 PM)",
-                    "spice_level": 1
-                }
-            },
-            {
-                "name": "Plain Kulcha",
-                "description": "Made from the finest ingredients and baked to perfection in our traditional tandoor ...read more",
-                "price": 110.0,
-                "attributes": {
-                    "veg_nonveg": "Veg",
-                    "category": "Breads (11 AM - 11:30 PM)",
-                    "spice_level": 1
-                }
-            },
-            {
-                "name": "Onion Kulcha",
-                "description": "Cooked in a tandoori oven, our Onion Kulcha comes with a delicious layer ...read more",
-                "price": 110.0,
-                "attributes": {
-                    "veg_nonveg": "Veg",
-                    "category": "Breads (11 AM - 11:30 PM)",
-                    "spice_level": 2
-                }
-            },
-            {
-                "name": "Lachha Paratha",
-                "description": "Each paratha is meticulously rolled and folded to create intricate, flaky layers that ...read more",
-                "price": 110.0,
-                "attributes": {
-                    "veg_nonveg": "Veg",
-                    "category": "Breads (11 AM - 11:30 PM)",
-                    "spice_level": 1
-                }
-            },
-            {
-                "name": "Missi Roti",
-                "description": "\"A Punjabi staple crafted from a blend of chickpea flour, wheat flour, and ...read more",
-                "price": 85.0,
-                "attributes": {
-                    "veg_nonveg": "Veg",
-                    "category": "Breads (11 AM - 11:30 PM)",
-                    "spice_level": 1
-                }
-            },
-            {
-                "name": "Butter Naan",
-                "description": "|Serves 1|a timeless classic, infused with the rich, buttery goodness that melts in ...read more",
-                "price": 120.0,
-                "attributes": {
-                    "veg_nonveg": "Veg",
-                    "category": "Breads (11 AM - 11:30 PM)",
-                    "spice_level": 1
-                }
-            },
-            {
-                "name": "Veg Stuffed Kulcha",
-                "description": "Each kulcha is filled with a medley of savory ingredients, including spiced mashed ...read more",
-                "price": 120.0,
-                "attributes": {
-                    "veg_nonveg": "Veg",
-                    "category": "Breads (11 AM - 11:30 PM)",
-                    "spice_level": 2
-                }
-            },
-            {
-                "name": "Stuffed Paratha",
-                "description": "Each paratha is lovingly crafted with a generous filling of flavorful mixture of ...read more",
-                "price": 120.0,
-                "attributes": {
-                    "veg_nonveg": "Veg",
-                    "category": "Breads (11 AM - 11:30 PM)",
-                    "spice_level": 1
-                }
-            },
-            {
-                "name": "Pudina Paratha",
-                "description": "Indulge in the refreshing burst of flavor with our Pudina Paratha, a culinary ...read more",
-                "price": 110.0,
-                "attributes": {
-                    "veg_nonveg": "Veg",
-                    "category": "Breads (11 AM - 11:30 PM)",
-                    "spice_level": 1
-                }
-            },
-            {
-                "name": "Reshmi Paratha",
-                "description": "Each paratha is filled with a generous amount of creamy khoya, delicately sweetened ...read more",
-                "price": 110.0,
-                "attributes": {
-                    "veg_nonveg": "Veg",
-                    "category": "Breads (11 AM - 11:30 PM)",
-                    "spice_level": 1
-                }
-            },
-            {
-                "name": "Paneer Naan",
-                "description": "A delectable variation of the traditional naan bread, generously stuffed with flavorful paneer ...read more",
-                "price": 120.0,
-                "attributes": {
-                    "veg_nonveg": "Veg",
-                    "category": "Breads (11 AM - 11:30 PM)",
-                    "spice_level": 1
-                }
-            },
-            {
-                "name": "Garlic Naan",
-                "description": "Each naan is infused with the aromatic essence of freshly minced garlic, adding ...read more",
-                "price": 120.0,
-                "attributes": {
-                    "veg_nonveg": "Veg",
-                    "category": "Breads (11 AM - 11:30 PM)",
-                    "spice_level": 1
-                }
-            },
-            {
-                "name": "Paneer Stuffed Kulcha",
-                "description": "A delightful Punjabi flatbread filled with a savory blend of spiced paneer, onions, ...read more",
-                "price": 140.0,
-                "attributes": {
-                    "veg_nonveg": "Veg",
-                    "category": "Breads (11 AM - 11:30 PM)",
-                    "spice_level": 2
-                }
-            },
-            {
-                "name": "Paneer Paratha",
-                "description": "Savor the creamy goodness of our Paneer Paratha, a beloved staple of Indian ...read more",
-                "price": 140.0,
-                "attributes": {
-                    "veg_nonveg": "Veg",
-                    "category": "Breads (11 AM - 11:30 PM)",
-                    "spice_level": 1
-                }
-            },
-            {
-                "name": "Kashmiri Naan",
-                "description": "A culinary masterpiece bursting with fruit cocktail and khoya glazed with silver leaves.",
-                "price": 140.0,
-                "attributes": {
-                    "veg_nonveg": "Veg",
-                    "category": "Breads (11 AM - 11:30 PM)",
-                    "spice_level": 1
-                }
-            },
-            {
                 "name": "RiceBoiled Rice",
                 "description": "Rice",
                 "price": 230.0,
@@ -1950,96 +1320,6 @@
                 "attributes": {
                     "veg_nonveg": "Non-Veg",
                     "category": "Rice & Biryani",
-                    "spice_level": 1
-                }
-            },
-            {
-                "name": "Roasted Papad",
-                "description": "Per piece| Crispy papad made simply from moongdal and spices.",
-                "price": 25.0,
-                "attributes": {
-                    "veg_nonveg": "Veg",
-                    "category": "Accompaniments",
-                    "spice_level": 2
-                }
-            },
-            {
-                "name": "Fried Papad",
-                "description": "Per piece|A classic Indian snacks that makes a perfect starter for your meal.",
-                "price": 30.0,
-                "attributes": {
-                    "veg_nonveg": "Veg",
-                    "category": "Accompaniments",
-                    "spice_level": 1
-                }
-            },
-            {
-                "name": "Masala Papad",
-                "description": "",
-                "price": 60.0,
-                "attributes": {
-                    "veg_nonveg": "Veg",
-                    "category": "Accompaniments",
-                    "spice_level": 2
-                }
-            },
-            {
-                "name": "Plain Curd",
-                "description": "A timeless classic that's both creamy and refreshing.",
-                "price": 140.0,
-                "attributes": {
-                    "veg_nonveg": "Veg",
-                    "category": "Accompaniments",
-                    "spice_level": 1
-                }
-            },
-            {
-                "name": "Boondi Raita",
-                "description": "Dive into the classic flavors of our Boondi Raita, a traditional Indian side ...read more",
-                "price": 160.0,
-                "attributes": {
-                    "veg_nonveg": "Veg",
-                    "category": "Accompaniments",
-                    "spice_level": 1
-                }
-            },
-            {
-                "name": "Mixed Veg Raita",
-                "description": "Made with creamy yogurt and finely diced onions, ripe tomatoes, and crisp cucumbers.",
-                "price": 180.0,
-                "attributes": {
-                    "veg_nonveg": "Veg",
-                    "category": "Accompaniments",
-                    "spice_level": 1
-                }
-            },
-            {
-                "name": "Potato Onion Raita",
-                "description": "",
-                "price": 180.0,
-                "attributes": {
-                    "veg_nonveg": "Veg",
-                    "category": "Accompaniments",
-                    "spice_level": 1
-                }
-            },
-            {
-                "name": "Pineapple Raita",
-                "description": "Our Pineapple Raita is a tantalizing blend of flavors and textures of creamy ...read more",
-                "price": 180.0,
-                "attributes": {
-                    "veg_nonveg": "Veg",
-                    "category": "Accompaniments",
-                    "spice_level": 1
-                }
-            },
-            {
-                "name": "Fruit Raita",
-                "description": "Indulge in the delightful fusion of flavors with our Fruit Raita featuring Papaya, ...read more",
-                "price": 200.0,
-                "attributes": {
-                    "veg_nonveg": "Veg",
-                    "category": "Accompaniments",
                     "spice_level": 1
                 }
             },
@@ -2254,172 +1534,12 @@
                 }
             },
             {
-                "name": "Veg Fried Rice",
-                "description": "Exotic combo of rice, green peas, carrots and beans tossed with other spices ...read more",
-                "price": 360.0,
+                "name": "Mango Kheer",
+                "description": "A refreshing Indian dessert made with bursting and sweet flavours of ripe mango.",
+                "price": 225.0,
                 "attributes": {
                     "veg_nonveg": "Veg",
-                    "category": "Fried Rice And Noodles",
-                    "spice_level": 2
-                }
-            },
-            {
-                "name": "Veg Chowmein",
-                "description": "Warm soft noodles fried with chilli, vegetable, onion has been inspired by the ...read more",
-                "price": 360.0,
-                "attributes": {
-                    "veg_nonveg": "Veg",
-                    "category": "Fried Rice And Noodles",
-                    "spice_level": 2
-                }
-            },
-            {
-                "name": "Paneer Fried Rice",
-                "description": "Fried rice prepared with delicious paneer.",
-                "price": 380.0,
-                "attributes": {
-                    "veg_nonveg": "Veg",
-                    "category": "Fried Rice And Noodles",
-                    "spice_level": 1
-                }
-            },
-            {
-                "name": "Singapuri Fried Rice",
-                "description": "Rice tossed with onion, capsicum , babycorn, mushroom and cabbage in a savory ...read more",
-                "price": 390.0,
-                "attributes": {
-                    "veg_nonveg": "Veg",
-                    "category": "Fried Rice And Noodles",
-                    "spice_level": 1
-                }
-            },
-            {
-                "name": "Mushroom Fried Rice",
-                "description": "Fried rice and mushroom rice in two mind.",
-                "price": 380.0,
-                "attributes": {
-                    "veg_nonveg": "Veg",
-                    "category": "Fried Rice And Noodles",
-                    "spice_level": 1
-                }
-            },
-            {
-                "name": "Veg Hakka Fried Rice",
-                "description": "Harmonious blend of stir fried rice with an array of vegetables- paneer, onion, ...read more",
-                "price": 380.0,
-                "attributes": {
-                    "veg_nonveg": "Veg",
-                    "category": "Fried Rice And Noodles",
-                    "spice_level": 1
-                }
-            },
-            {
-                "name": "Singapuri Chowmein",
-                "description": "This vibrant stir-fry features a symphony of sizzling onions, capsicum, babycorn, mushroom and ...read more",
-                "price": 390.0,
-                "attributes": {
-                    "veg_nonveg": "Veg",
-                    "category": "Fried Rice And Noodles",
-                    "spice_level": 1
-                }
-            },
-            {
-                "name": "Paneer Chowmein",
-                "description": "Traditional Chinese noodles topped with paneer.",
-                "price": 380.0,
-                "attributes": {
-                    "veg_nonveg": "Veg",
-                    "category": "Fried Rice And Noodles",
-                    "spice_level": 1
-                }
-            },
-            {
-                "name": "Mushroom Chowmein",
-                "description": "Minced mushroom overwhelmed by the flavour of chowmein",
-                "price": 390.0,
-                "attributes": {
-                    "veg_nonveg": "Veg",
-                    "category": "Fried Rice And Noodles",
-                    "spice_level": 1
-                }
-            },
-            {
-                "name": "Veg Hakka Noodles",
-                "description": "Stir-fried with fresh, crisp vegetables like paneer, carrots, and capsicum, they create a ...read more",
-                "price": 380.0,
-                "attributes": {
-                    "veg_nonveg": "Veg",
-                    "category": "Fried Rice And Noodles",
-                    "spice_level": 1
-                }
-            },
-            {
-                "name": "Veg Chow Chow",
-                "description": "Noodles prepared with long sliced fresh vegetable served in a white sauce.",
-                "price": 380.0,
-                "attributes": {
-                    "veg_nonveg": "Veg",
-                    "category": "Fried Rice And Noodles",
-                    "spice_level": 1
-                }
-            },
-            {
-                "name": "Treat Special Chowmein",
-                "description": "[Chef's Special]. Noodles with spices and garnished with dry fruits.",
-                "price": 400.0,
-                "attributes": {
-                    "veg_nonveg": "Veg",
-                    "category": "Fried Rice And Noodles",
-                    "spice_level": 2
-                }
-            },
-            {
-                "name": "Schezwan Fried Rice",
-                "description": "Crafted with fragrant rice stir-fried, tossed with onion paneer, capsicum and spring onion ...read more",
-                "price": 390.0,
-                "attributes": {
-                    "veg_nonveg": "Veg",
-                    "category": "Fried Rice And Noodles",
-                    "spice_level": 2
-                }
-            },
-            {
-                "name": "Treat Special Fried Rice",
-                "description": "[Chef's Special]. Rice topped with dry fruit to add yet another tasteful twist ...read more",
-                "price": 400.0,
-                "attributes": {
-                    "veg_nonveg": "Veg",
-                    "category": "Fried Rice And Noodles",
-                    "spice_level": 1
-                }
-            },
-            {
-                "name": "Schezwan Chowmein",
-                "description": "Stir-fried noodles tossed with capsicum, carrots, chunks of paneer, and onions, all infused ...read more",
-                "price": 380.0,
-                "attributes": {
-                    "veg_nonveg": "Veg",
-                    "category": "Fried Rice And Noodles",
-                    "spice_level": 2
-                }
-            },
-            {
-                "name": "Veg Chopsuey",
-                "description": "This stir-fry favorite features a delightful combination of crisp-tender vegetables, all bathed in ...read more",
-                "price": 400.0,
-                "attributes": {
-                    "veg_nonveg": "Veg",
-                    "category": "Fried Rice And Noodles",
-                    "spice_level": 1
-                }
-            },
-            {
-                "name": "American Chopsuey",
-                "description": "This stir fried delight of assorted vegetables comes with a twist of pineapple. ...read more",
-                "price": 410.0,
-                "attributes": {
-                    "veg_nonveg": "Veg",
-                    "category": "Fried Rice And Noodles",
+                    "category": "Desserts",
                     "spice_level": 1
                 }
             },
@@ -2457,16 +1577,6 @@
                 "name": "RasmalaiBESTSELLER",
                 "description": "Delicate textures of chenna soaked in sweet, creamy saffron-infused milk, garnished with grated ...read more",
                 "price": 300.0,
-                "attributes": {
-                    "veg_nonveg": "Veg",
-                    "category": "Desserts",
-                    "spice_level": 1
-                }
-            },
-            {
-                "name": "Imarti [2 Pieces]BESTSELLER",
-                "description": "Our Imarti is deep-fried to a golden hue in Desi Ghee, and soaked ...read more",
-                "price": 100.0,
                 "attributes": {
                     "veg_nonveg": "Veg",
                     "category": "Desserts",
@@ -2522,186 +1632,6 @@
                     "category": "Hot Beverages",
                     "spice_level": 2
                 }
-            },
-            {
-                "name": "Sweet LassiBESTSELLER",
-                "description": "Serves-1|300 ml| A perfect desi summer cooler with the richness of thick, creamy ...read more",
-                "price": 110.0,
-                "attributes": {
-                    "veg_nonveg": "Veg",
-                    "category": "Drinks (Beverages)",
-                    "spice_level": 1
-                }
-            },
-            {
-                "name": "Masala Chaas",
-                "description": "Serves-1|300 ml| Beat the heat with our chilled salted lassi, churned to perfection.",
-                "price": 110.0,
-                "attributes": {
-                    "veg_nonveg": "Veg",
-                    "category": "Drinks (Beverages)",
-                    "spice_level": 2
-                }
-            },
-            {
-                "name": "Cold Coffee",
-                "description": "Indulge in a chilly coffee treat, perfectly brewed and bursting with the aroma ...read more",
-                "price": 180.0,
-                "attributes": {
-                    "veg_nonveg": "Veg",
-                    "category": "Drinks (Beverages)",
-                    "spice_level": 1
-                }
-            },
-            {
-                "name": "Chocolate Shake",
-                "description": "BESTSELLER",
-                "price": 190.0,
-                "attributes": {
-                    "veg_nonveg": "Veg",
-                    "category": "Drinks (Beverages)",
-                    "spice_level": 1
-                }
-            },
-            {
-                "name": "Vanilla Shake",
-                "description": "BESTSELLER",
-                "price": 190.0,
-                "attributes": {
-                    "veg_nonveg": "Veg",
-                    "category": "Drinks (Beverages)",
-                    "spice_level": 1
-                }
-            },
-            {
-                "name": "Strawberry Shake",
-                "description": "Escape the summer sun with our handcrafted strawberry shakes blended into pure deliciousness.",
-                "price": 190.0,
-                "attributes": {
-                    "veg_nonveg": "Veg",
-                    "category": "Drinks (Beverages)",
-                    "spice_level": 1
-                }
-            },
-            {
-                "name": "Mango Shake",
-                "description": "Serves-1|300 ml| Made from ripe, succulent mangoes blended to creamy perfection, this refreshing ...read more",
-                "price": 190.0,
-                "attributes": {
-                    "veg_nonveg": "Veg",
-                    "category": "Drinks (Beverages)",
-                    "spice_level": 1
-                }
-            },
-            {
-                "name": "Kitkat Shake",
-                "description": "Have a break with our Kitkat shake, experience the goodness of chocolate in ...read more",
-                "price": 200.0,
-                "attributes": {
-                    "veg_nonveg": "Veg",
-                    "category": "Drinks (Beverages)",
-                    "spice_level": 1
-                }
-            },
-            {
-                "name": "Butterscotch Shake",
-                "description": "Beat the heat with our refreshing Butterscotch shakes, a taste of summer in ...read more",
-                "price": 190.0,
-                "attributes": {
-                    "veg_nonveg": "Veg",
-                    "category": "Drinks (Beverages)",
-                    "spice_level": 1
-                }
-            },
-            {
-                "name": "Chocolate Hazelnut Shake",
-                "description": "Dive into the richness of our creamy chocolate shakes swirled with nutty goodness.",
-                "price": 200.0,
-                "attributes": {
-                    "veg_nonveg": "Veg",
-                    "category": "Drinks (Beverages)",
-                    "spice_level": 1
-                }
-            },
-            {
-                "name": "Red Velvet Shake",
-                "description": "BESTSELLER",
-                "price": 200.0,
-                "attributes": {
-                    "veg_nonveg": "Veg",
-                    "category": "Drinks (Beverages)",
-                    "spice_level": 1
-                }
-            },
-            {
-                "name": "Lemon Ice Tea",
-                "description": "Quench your thirst with the zesty goodness of our Lemon Ice Tea!",
-                "price": 150.0,
-                "attributes": {
-                    "veg_nonveg": "Veg",
-                    "category": "Coolers",
-                    "spice_level": 1
-                }
-            },
-            {
-                "name": "Virgin Mojito",
-                "description": "Experience the tropic of mint and lemon, packed in our Virgin Mojito. A ...read more",
-                "price": 170.0,
-                "attributes": {
-                    "veg_nonveg": "Veg",
-                    "category": "Coolers",
-                    "spice_level": 1
-                }
-            },
-            {
-                "name": "Mango Mojito",
-                "description": "Summer calls for a refreshing glass of our Mango Mojito packed with the ...read more",
-                "price": 180.0,
-                "attributes": {
-                    "veg_nonveg": "Veg",
-                    "category": "Coolers",
-                    "spice_level": 1
-                }
-            },
-            {
-                "name": "Mint Lemonade",
-                "description": "Crafted with care, each sip promises a delightful fusion of mint leaves, zesty ...read more",
-                "price": 180.0,
-                "attributes": {
-                    "veg_nonveg": "Veg",
-                    "category": "Coolers",
-                    "spice_level": 1
-                }
-            },
-            {
-                "name": "Kala Katta Mojito",
-                "description": "Experience the joy of kala khatta gola in our kala khatta mocktail.",
-                "price": 180.0,
-                "attributes": {
-                    "veg_nonveg": "Veg",
-                    "category": "Coolers",
-                    "spice_level": 1
-                }
-            },
-            {
-                "name": "Watermelon Cooler",
-                "description": "Try our watermelon cooler, a perfect antidote to scorching heat!",
-                "price": 180.0,
-                "attributes": {
-                    "veg_nonveg": "Veg",
-                    "category": "Coolers",
-                    "spice_level": 1
-                }
-            },
-            {
-                "name": "Kiwi Cooler",
-                "description": "Experience a taste of paradise with our Kiwi Cooler! Filled with a burst ...read more",
-                "price": 180.0,
-                "attributes": {
-                    "veg_nonveg": "Veg",
-                    "category": "Coolers",
-                    "spice_level": 1
-                }
             }
         ]
     },
@@ -2731,7 +1661,7 @@
         "menu": [
             {
                 "name": "Brownie Sundae with Chocolate Sauce [1 Jar]",
-                "description": "",
+                "description": "BESTSELLER",
                 "price": 200.0,
                 "attributes": {
                     "veg_nonveg": "Veg",
@@ -2741,7 +1671,7 @@
             },
             {
                 "name": "Traffic Jam Sundae [1 Jar]",
-                "description": "",
+                "description": "BESTSELLER",
                 "price": 270.0,
                 "attributes": {
                     "veg_nonveg": "Veg",
@@ -2751,7 +1681,7 @@
             },
             {
                 "name": "Mango Sundae [1 Jar]",
-                "description": "",
+                "description": "BESTSELLER",
                 "price": 325.0,
                 "attributes": {
                     "veg_nonveg": "Veg",
@@ -2771,7 +1701,7 @@
             },
             {
                 "name": "Strawberry Sundae [1 Jar]",
-                "description": "",
+                "description": "BESTSELLER",
                 "price": 325.0,
                 "attributes": {
                     "veg_nonveg": "Veg",
@@ -2791,7 +1721,7 @@
             },
             {
                 "name": "Pineapple Sundae [1 Jar]",
-                "description": "",
+                "description": "BESTSELLER",
                 "price": 325.0,
                 "attributes": {
                     "veg_nonveg": "Veg",
@@ -2801,7 +1731,7 @@
             },
             {
                 "name": "KitKat Sundae [1 Jar]",
-                "description": "",
+                "description": "BESTSELLER",
                 "price": 325.0,
                 "attributes": {
                     "veg_nonveg": "Veg",
@@ -2811,7 +1741,7 @@
             },
             {
                 "name": "Banoffee Pie Sundae [1 Jar]",
-                "description": "",
+                "description": "BESTSELLER",
                 "price": 325.0,
                 "attributes": {
                     "veg_nonveg": "Veg",
@@ -2821,7 +1751,7 @@
             },
             {
                 "name": "Chocolate Divine Sundae [1 Jar]",
-                "description": "",
+                "description": "BESTSELLER",
                 "price": 325.0,
                 "attributes": {
                     "veg_nonveg": "Veg",
@@ -2831,7 +1761,7 @@
             },
             {
                 "name": "Dark Fantasy Sundae [1 Jar]",
-                "description": "",
+                "description": "BESTSELLER",
                 "price": 325.0,
                 "attributes": {
                     "veg_nonveg": "Veg",
@@ -2841,7 +1771,7 @@
             },
             {
                 "name": "Caramel Mocha Sundae [1 Jar]",
-                "description": "",
+                "description": "BESTSELLER",
                 "price": 325.0,
                 "attributes": {
                     "veg_nonveg": "Veg",
@@ -2851,7 +1781,7 @@
             },
             {
                 "name": "Tutti Frutti Special Sundae [1 Jar]",
-                "description": "",
+                "description": "BESTSELLER",
                 "price": 325.0,
                 "attributes": {
                     "veg_nonveg": "Veg",
@@ -2861,7 +1791,7 @@
             },
             {
                 "name": "Special Sundae [1 Jar]",
-                "description": "",
+                "description": "BESTSELLER",
                 "price": 350.0,
                 "attributes": {
                     "veg_nonveg": "Veg",
@@ -2871,7 +1801,7 @@
             },
             {
                 "name": "Surprising Butterscotch Sundae [1 Jar]",
-                "description": "",
+                "description": "BESTSELLER",
                 "price": 350.0,
                 "attributes": {
                     "veg_nonveg": "Veg",
@@ -2881,7 +1811,7 @@
             },
             {
                 "name": "Bubblegum Sundae [1 Jar]",
-                "description": "",
+                "description": "BESTSELLER",
                 "price": 350.0,
                 "attributes": {
                     "veg_nonveg": "Veg",
@@ -2891,7 +1821,7 @@
             },
             {
                 "name": "Magical Blackcurrant Sundae [1 Jar]",
-                "description": "",
+                "description": "BESTSELLER",
                 "price": 350.0,
                 "attributes": {
                     "veg_nonveg": "Veg",
@@ -2901,7 +1831,7 @@
             },
             {
                 "name": "Red Velvet Sundae [1 Jar]",
-                "description": "",
+                "description": "BESTSELLER",
                 "price": 350.0,
                 "attributes": {
                     "veg_nonveg": "Veg",
@@ -2911,7 +1841,7 @@
             },
             {
                 "name": "Cotton Candy Sundae [1 Jar]",
-                "description": "",
+                "description": "BESTSELLER",
                 "price": 350.0,
                 "attributes": {
                     "veg_nonveg": "Veg",
@@ -2921,7 +1851,7 @@
             },
             {
                 "name": "Cream and Cookies Sundae [1 Jar]",
-                "description": "",
+                "description": "BESTSELLER",
                 "price": 350.0,
                 "attributes": {
                     "veg_nonveg": "Veg",
@@ -2931,7 +1861,7 @@
             },
             {
                 "name": "Belgian Choco Sundae [1 Jar]",
-                "description": "",
+                "description": "BESTSELLER",
                 "price": 350.0,
                 "attributes": {
                     "veg_nonveg": "Veg",
@@ -2941,7 +1871,7 @@
             },
             {
                 "name": "Honey Funny Sundae [1 Jar]",
-                "description": "",
+                "description": "BESTSELLER",
                 "price": 350.0,
                 "attributes": {
                     "veg_nonveg": "Veg",
@@ -2950,8 +1880,8 @@
                 }
             },
             {
-                "name": "Fruit Freaky Sundae [1 Jar]",
-                "description": "",
+                "name": "Fruit Freaky Sundae [1 Jar]BESTSELLER",
+                "description": "BESTSELLER",
                 "price": 350.0,
                 "attributes": {
                     "veg_nonveg": "Veg",
@@ -2961,7 +1891,7 @@
             },
             {
                 "name": "Roasted Almond Sundae [1 Jar]",
-                "description": "",
+                "description": "BESTSELLER",
                 "price": 350.0,
                 "attributes": {
                     "veg_nonveg": "Veg",
@@ -2971,7 +1901,7 @@
             },
             {
                 "name": "Very Berry Blueberry Sundae [1 Jar]",
-                "description": "",
+                "description": "BESTSELLER",
                 "price": 350.0,
                 "attributes": {
                     "veg_nonveg": "Veg",
@@ -2981,7 +1911,7 @@
             },
             {
                 "name": "Anjeer Madness Sundae [1 Jar]",
-                "description": "",
+                "description": "BESTSELLER",
                 "price": 350.0,
                 "attributes": {
                     "veg_nonveg": "Veg",
@@ -2991,7 +1921,7 @@
             },
             {
                 "name": "Banana Split Sundae [1 Jar]",
-                "description": "",
+                "description": "BESTSELLER",
                 "price": 450.0,
                 "attributes": {
                     "veg_nonveg": "Veg",
@@ -3001,7 +1931,7 @@
             },
             {
                 "name": "Kuch Nahi Sundae [1 Jar]",
-                "description": "",
+                "description": "BESTSELLER",
                 "price": 450.0,
                 "attributes": {
                     "veg_nonveg": "Veg",
@@ -3011,7 +1941,7 @@
             },
             {
                 "name": "Premium Sundae [1 Jar]",
-                "description": "",
+                "description": "BESTSELLER",
                 "price": 525.0,
                 "attributes": {
                     "veg_nonveg": "Veg",
@@ -3445,7 +2375,7 @@
         "type": "Restaurant",
         "name": "Neelkanth Green",
         "url": "/lucknow/neelkanth-green-gomti-nagar",
-        "opening_hours": "11am \u2013 11pm (Today)",
+        "opening_hours": "Opens at 11am",
         "address": {
             "street": "3/116, Vivek Khand, Gomti Nagar, Lucknow",
             "locality": "Gomti Nagar, Lucknow",
@@ -3467,7 +2397,7 @@
         "menu": [
             {
                 "name": "Cheese Finger",
-                "description": "BESTSELLER",
+                "description": "",
                 "price": 200.0,
                 "attributes": {
                     "veg_nonveg": "Veg",
@@ -3477,7 +2407,7 @@
             },
             {
                 "name": "Chilli Paneer Wrap",
-                "description": "BESTSELLER",
+                "description": "",
                 "price": 240.0,
                 "attributes": {
                     "veg_nonveg": "Veg",
@@ -3486,8 +2416,8 @@
                 }
             },
             {
-                "name": "Chole BhatureBESTSELLER",
-                "description": "BESTSELLER",
+                "name": "Chole Bhature",
+                "description": "",
                 "price": 210.0,
                 "attributes": {
                     "veg_nonveg": "Veg",
@@ -3497,7 +2427,7 @@
             },
             {
                 "name": "Mexican Wrap",
-                "description": "BESTSELLER",
+                "description": "",
                 "price": 190.0,
                 "attributes": {
                     "veg_nonveg": "Veg",
@@ -3507,7 +2437,7 @@
             },
             {
                 "name": "Mix Veg Wrap",
-                "description": "BESTSELLER",
+                "description": "",
                 "price": 220.0,
                 "attributes": {
                     "veg_nonveg": "Veg",
@@ -3517,7 +2447,7 @@
             },
             {
                 "name": "Mushroom Bruschetta",
-                "description": "BESTSELLER",
+                "description": "",
                 "price": 200.0,
                 "attributes": {
                     "veg_nonveg": "Veg",
@@ -3527,7 +2457,7 @@
             },
             {
                 "name": "Mushroom Wrap",
-                "description": "BESTSELLER",
+                "description": "",
                 "price": 190.0,
                 "attributes": {
                     "veg_nonveg": "Veg",
@@ -3537,7 +2467,7 @@
             },
             {
                 "name": "Paneer Wrap",
-                "description": "BESTSELLER",
+                "description": "",
                 "price": 240.0,
                 "attributes": {
                     "veg_nonveg": "Veg",
@@ -3547,7 +2477,7 @@
             },
             {
                 "name": "Pav Bhaji",
-                "description": "BESTSELLER",
+                "description": "",
                 "price": 295.0,
                 "attributes": {
                     "veg_nonveg": "Veg",
@@ -3557,7 +2487,7 @@
             },
             {
                 "name": "Quesadillas",
-                "description": "BESTSELLER",
+                "description": "",
                 "price": 280.0,
                 "attributes": {
                     "veg_nonveg": "Veg",
@@ -3567,7 +2497,7 @@
             },
             {
                 "name": "Tomato Bruschetta",
-                "description": "BESTSELLER",
+                "description": "",
                 "price": 200.0,
                 "attributes": {
                     "veg_nonveg": "Veg",
@@ -4332,206 +3262,6 @@
                 "attributes": {
                     "veg_nonveg": "Veg",
                     "category": "Chinese",
-                    "spice_level": 1
-                }
-            },
-            {
-                "name": "Butter Masala DosaBESTSELLER",
-                "description": "BESTSELLER",
-                "price": 230.0,
-                "attributes": {
-                    "veg_nonveg": "Veg",
-                    "category": "South Indian",
-                    "spice_level": 2
-                }
-            },
-            {
-                "name": "Cheese Masala Dosa",
-                "description": "BESTSELLER",
-                "price": 245.0,
-                "attributes": {
-                    "veg_nonveg": "Veg",
-                    "category": "South Indian",
-                    "spice_level": 2
-                }
-            },
-            {
-                "name": "Chefs Special Dosa",
-                "description": "BESTSELLER",
-                "price": 295.0,
-                "attributes": {
-                    "veg_nonveg": "Veg",
-                    "category": "South Indian",
-                    "spice_level": 1
-                }
-            },
-            {
-                "name": "Idli SambharBESTSELLER",
-                "description": "BESTSELLER",
-                "price": 185.0,
-                "attributes": {
-                    "veg_nonveg": "Veg",
-                    "category": "South Indian",
-                    "spice_level": 1
-                }
-            },
-            {
-                "name": "Masala DosaBESTSELLER",
-                "description": "BESTSELLER",
-                "price": 210.0,
-                "attributes": {
-                    "veg_nonveg": "Veg",
-                    "category": "South Indian",
-                    "spice_level": 2
-                }
-            },
-            {
-                "name": "Mix Uttapam",
-                "description": "BESTSELLER",
-                "price": 245.0,
-                "attributes": {
-                    "veg_nonveg": "Veg",
-                    "category": "South Indian",
-                    "spice_level": 1
-                }
-            },
-            {
-                "name": "Mysore Masala Dosa",
-                "description": "BESTSELLER",
-                "price": 235.0,
-                "attributes": {
-                    "veg_nonveg": "Veg",
-                    "category": "South Indian",
-                    "spice_level": 2
-                }
-            },
-            {
-                "name": "Mysore Plain Dosa",
-                "description": "BESTSELLER",
-                "price": 200.0,
-                "attributes": {
-                    "veg_nonveg": "Veg",
-                    "category": "South Indian",
-                    "spice_level": 1
-                }
-            },
-            {
-                "name": "Mysore Spicy Cheese Dosa",
-                "description": "[Spicy]",
-                "price": 255.0,
-                "attributes": {
-                    "veg_nonveg": "Veg",
-                    "category": "South Indian",
-                    "spice_level": 2
-                }
-            },
-            {
-                "name": "Onion Uttapam",
-                "description": "BESTSELLER",
-                "price": 235.0,
-                "attributes": {
-                    "veg_nonveg": "Veg",
-                    "category": "South Indian",
-                    "spice_level": 1
-                }
-            },
-            {
-                "name": "Paneer DosaBESTSELLER",
-                "description": "BESTSELLER",
-                "price": 250.0,
-                "attributes": {
-                    "veg_nonveg": "Veg",
-                    "category": "South Indian",
-                    "spice_level": 1
-                }
-            },
-            {
-                "name": "Paneer Uttapam",
-                "description": "BESTSELLER",
-                "price": 255.0,
-                "attributes": {
-                    "veg_nonveg": "Veg",
-                    "category": "South Indian",
-                    "spice_level": 1
-                }
-            },
-            {
-                "name": "Plain Dosa",
-                "description": "BESTSELLER",
-                "price": 180.0,
-                "attributes": {
-                    "veg_nonveg": "Veg",
-                    "category": "South Indian",
-                    "spice_level": 1
-                }
-            },
-            {
-                "name": "Rawa Masala Dosa",
-                "description": "BESTSELLER",
-                "price": 225.0,
-                "attributes": {
-                    "veg_nonveg": "Veg",
-                    "category": "South Indian",
-                    "spice_level": 2
-                }
-            },
-            {
-                "name": "Rawa Onion Masala Dosa",
-                "description": "BESTSELLER",
-                "price": 235.0,
-                "attributes": {
-                    "veg_nonveg": "Veg",
-                    "category": "South Indian",
-                    "spice_level": 2
-                }
-            },
-            {
-                "name": "Rawa Paneer Dosa",
-                "description": "BESTSELLER",
-                "price": 250.0,
-                "attributes": {
-                    "veg_nonveg": "Veg",
-                    "category": "South Indian",
-                    "spice_level": 1
-                }
-            },
-            {
-                "name": "Rawa Plain Dosa",
-                "description": "BESTSELLER",
-                "price": 215.0,
-                "attributes": {
-                    "veg_nonveg": "Veg",
-                    "category": "South Indian",
-                    "spice_level": 1
-                }
-            },
-            {
-                "name": "Special Onion Masala Dosa",
-                "description": "BESTSELLER",
-                "price": 265.0,
-                "attributes": {
-                    "veg_nonveg": "Veg",
-                    "category": "South Indian",
-                    "spice_level": 2
-                }
-            },
-            {
-                "name": "Spring Dosa",
-                "description": "BESTSELLER",
-                "price": 265.0,
-                "attributes": {
-                    "veg_nonveg": "Veg",
-                    "category": "South Indian",
-                    "spice_level": 1
-                }
-            },
-            {
-                "name": "Vada Sambhar",
-                "description": "BESTSELLER",
-                "price": 185.0,
-                "attributes": {
-                    "veg_nonveg": "Veg",
-                    "category": "South Indian",
                     "spice_level": 1
                 }
             },
@@ -5387,7 +4117,7 @@
             },
             {
                 "name": "Boondi Masala Raita",
-                "description": "BESTSELLER",
+                "description": "",
                 "price": 215.0,
                 "attributes": {
                     "veg_nonveg": "Veg",
@@ -5396,8 +4126,8 @@
                 }
             },
             {
-                "name": "Dahi Vada (4Pcs)BESTSELLER",
-                "description": "BESTSELLER",
+                "name": "Dahi Vada (4Pcs)",
+                "description": "",
                 "price": 230.0,
                 "attributes": {
                     "veg_nonveg": "Veg",
@@ -5407,7 +4137,7 @@
             },
             {
                 "name": "Kheera Raita",
-                "description": "BESTSELLER",
+                "description": "",
                 "price": 215.0,
                 "attributes": {
                     "veg_nonveg": "Veg",
@@ -5417,7 +4147,7 @@
             },
             {
                 "name": "Mix Veg Raita",
-                "description": "BESTSELLER",
+                "description": "",
                 "price": 215.0,
                 "attributes": {
                     "veg_nonveg": "Veg",
@@ -5427,7 +4157,7 @@
             },
             {
                 "name": "Mixed Fruit Raita",
-                "description": "BESTSELLER",
+                "description": "",
                 "price": 285.0,
                 "attributes": {
                     "veg_nonveg": "Veg",
@@ -5437,7 +4167,7 @@
             },
             {
                 "name": "Pineapple Raita",
-                "description": "BESTSELLER",
+                "description": "",
                 "price": 285.0,
                 "attributes": {
                     "veg_nonveg": "Veg",
@@ -5447,7 +4177,7 @@
             },
             {
                 "name": "Plain Curd",
-                "description": "BESTSELLER",
+                "description": "",
                 "price": 200.0,
                 "attributes": {
                     "veg_nonveg": "Veg",
@@ -5457,161 +4187,11 @@
             },
             {
                 "name": "Pudina Raita",
-                "description": "BESTSELLER",
+                "description": "",
                 "price": 215.0,
                 "attributes": {
                     "veg_nonveg": "Veg",
                     "category": "Raita",
-                    "spice_level": 1
-                }
-            },
-            {
-                "name": "Blueberry Pastry",
-                "description": "BESTSELLER",
-                "price": 110.0,
-                "attributes": {
-                    "veg_nonveg": "Veg",
-                    "category": "Desserts",
-                    "spice_level": 1
-                }
-            },
-            {
-                "name": "Brownie With Ice Cream",
-                "description": "BESTSELLER",
-                "price": 140.0,
-                "attributes": {
-                    "veg_nonveg": "Veg",
-                    "category": "Desserts",
-                    "spice_level": 1
-                }
-            },
-            {
-                "name": "Choco-Chip Pastry",
-                "description": "BESTSELLER",
-                "price": 110.0,
-                "attributes": {
-                    "veg_nonveg": "Veg",
-                    "category": "Desserts",
-                    "spice_level": 1
-                }
-            },
-            {
-                "name": "Chocolate Donut",
-                "description": "BESTSELLER",
-                "price": 100.0,
-                "attributes": {
-                    "veg_nonveg": "Veg",
-                    "category": "Desserts",
-                    "spice_level": 1
-                }
-            },
-            {
-                "name": "Fresh Fruit Custard",
-                "description": "BESTSELLER",
-                "price": 90.0,
-                "attributes": {
-                    "veg_nonveg": "Veg",
-                    "category": "Desserts",
-                    "spice_level": 1
-                }
-            },
-            {
-                "name": "Gajar Halwa (Seasonal)",
-                "description": "BESTSELLER",
-                "price": 80.0,
-                "attributes": {
-                    "veg_nonveg": "Veg",
-                    "category": "Desserts",
-                    "spice_level": 1
-                }
-            },
-            {
-                "name": "Gulab Jamun [2 Pcs]BESTSELLER",
-                "description": "BESTSELLER",
-                "price": 70.0,
-                "attributes": {
-                    "veg_nonveg": "Veg",
-                    "category": "Desserts",
-                    "spice_level": 1
-                }
-            },
-            {
-                "name": "Gulab Ka Rasgulla [2 Pcs]",
-                "description": "BESTSELLER",
-                "price": 90.0,
-                "attributes": {
-                    "veg_nonveg": "Veg",
-                    "category": "Desserts",
-                    "spice_level": 1
-                }
-            },
-            {
-                "name": "Imarti With Rabri",
-                "description": "BESTSELLER",
-                "price": 80.0,
-                "attributes": {
-                    "veg_nonveg": "Veg",
-                    "category": "Desserts",
-                    "spice_level": 1
-                }
-            },
-            {
-                "name": "Malai Handi",
-                "description": "Navratri Special",
-                "price": 100.0,
-                "attributes": {
-                    "veg_nonveg": "Veg",
-                    "category": "Desserts",
-                    "spice_level": 1
-                }
-            },
-            {
-                "name": "Mix Fruit Pastry",
-                "description": "BESTSELLER",
-                "price": 110.0,
-                "attributes": {
-                    "veg_nonveg": "Veg",
-                    "category": "Desserts",
-                    "spice_level": 1
-                }
-            },
-            {
-                "name": "Moong Dal HalwaBESTSELLER",
-                "description": "BESTSELLER",
-                "price": 100.0,
-                "attributes": {
-                    "veg_nonveg": "Veg",
-                    "category": "Desserts",
-                    "spice_level": 1
-                }
-            },
-            {
-                "name": "Pineapple Pastry",
-                "description": "BESTSELLER",
-                "price": 100.0,
-                "attributes": {
-                    "veg_nonveg": "Veg",
-                    "category": "Desserts",
-                    "spice_level": 1
-                }
-            },
-            {
-                "name": "Rasmalai [2 Pcs]BESTSELLER",
-                "description": "BESTSELLER",
-                "price": 100.0,
-                "attributes": {
-                    "veg_nonveg": "Veg",
-                    "category": "Desserts",
-                    "spice_level": 1
-                }
-            },
-            {
-                "name": "Stick Kulfi",
-                "description": "BESTSELLER",
-                "price": 70.0,
-                "attributes": {
-                    "veg_nonveg": "Veg",
-                    "category": "Desserts",
                     "spice_level": 1
                 }
             }
@@ -5621,7 +4201,7 @@
         "type": "Restaurant",
         "name": "Fo'sho - Pan Asian & Italian Bistro",
         "url": "/lucknow/fosho-pan-asian-italian-bistro-hazratganj",
-        "opening_hours": "12:15pm \u2013 11pm (Today)",
+        "opening_hours": "Opens at 12:15pm",
         "address": {
             "street": "11, Habibullah Estate, Hazratganj, Lucknow",
             "locality": "Hazratganj, Lucknow",
@@ -6122,6 +4702,166 @@
                 }
             },
             {
+                "name": "Chicken Basil Dim Sum",
+                "description": "6 Pcs Juicy chicken and vegetable filling, wrapped in delicate dumpling skin.",
+                "price": 4996.0,
+                "attributes": {
+                    "veg_nonveg": "Non-Veg",
+                    "category": "Dim Sums | Gyoza",
+                    "spice_level": 1
+                }
+            },
+            {
+                "name": "Chicken Sui Mai Dimsum",
+                "description": "6 Pcs Open faced steamed dumplings filled with minced chicken and vegetables.",
+                "price": 4996.0,
+                "attributes": {
+                    "veg_nonveg": "Non-Veg",
+                    "category": "Dim Sums | Gyoza",
+                    "spice_level": 1
+                }
+            },
+            {
+                "name": "Cottage Cheese Dim Sum",
+                "description": "6 Pcs Delicate light dumplings filled with a creamy cottage cheese mixture.",
+                "price": 4296.0,
+                "attributes": {
+                    "veg_nonveg": "Veg",
+                    "category": "Dim Sums | Gyoza",
+                    "spice_level": 1
+                }
+            },
+            {
+                "name": "Creamy Mushroom Gyoza",
+                "description": "6 Pcs Pan fried dumpling filled with a creamy mushroom mixture, served with ...read more",
+                "price": 4496.0,
+                "attributes": {
+                    "veg_nonveg": "Veg",
+                    "category": "Dim Sums | Gyoza",
+                    "spice_level": 1
+                }
+            },
+            {
+                "name": "Crystal Veg Dim Sum",
+                "description": "6 Pcs Savoury dumplings filled with a blend of assorted vegetables, steamed to ...read more",
+                "price": 4296.0,
+                "attributes": {
+                    "veg_nonveg": "Veg",
+                    "category": "Dim Sums | Gyoza",
+                    "spice_level": 1
+                }
+            },
+            {
+                "name": "Edamame Truffle Dim Sum",
+                "description": "6 Pcs Creamy edamame and cheese filling with a hint of truffle oil, ...read more",
+                "price": 4296.0,
+                "attributes": {
+                    "veg_nonveg": "Veg",
+                    "category": "Dim Sums | Gyoza",
+                    "spice_level": 1
+                }
+            },
+            {
+                "name": "Korean Chicken Gyoza",
+                "description": "6 Pcs Flavourful dumplings filled with spicy, smoky Korean chicken mix, steamed to ...read more",
+                "price": 4996.0,
+                "attributes": {
+                    "veg_nonveg": "Non-Veg",
+                    "category": "Dim Sums | Gyoza",
+                    "spice_level": 2
+                }
+            },
+            {
+                "name": "Mushroom Medley Dim Sum",
+                "description": "6 Pcs Savoury dumplings filled with a blend of assorted mushrooms, steamed to ...read more",
+                "price": 4296.0,
+                "attributes": {
+                    "veg_nonveg": "Veg",
+                    "category": "Dim Sums | Gyoza",
+                    "spice_level": 1
+                }
+            },
+            {
+                "name": "Philly \u2013 Truffle Dim Sum",
+                "description": "6 Pcs Silky dumplings with a rich philadelphia cream cheese filling",
+                "price": 4296.0,
+                "attributes": {
+                    "veg_nonveg": "Veg",
+                    "category": "Dim Sums | Gyoza",
+                    "spice_level": 1
+                }
+            },
+            {
+                "name": "Prawn And Water Chestnut Sui Mai",
+                "description": "6 Pcs Tender steamed dumplings filled with a mixed of prawns and crunchy ...read more",
+                "price": 5996.0,
+                "attributes": {
+                    "veg_nonveg": "Non-Veg",
+                    "category": "Dim Sums | Gyoza",
+                    "spice_level": 1
+                }
+            },
+            {
+                "name": "Prawns Har Gao Dimsums",
+                "description": "6 Pcs Soft, see through dumplings filled with juicy prawns, steamed to perfection.",
+                "price": 5996.0,
+                "attributes": {
+                    "veg_nonveg": "Non-Veg",
+                    "category": "Dim Sums | Gyoza",
+                    "spice_level": 1
+                }
+            },
+            {
+                "name": "Roasted Cumin & Lamb Dim Sum",
+                "description": "6 Pcs Flavourful dumplings filled with a blend of roasted cumin and lamb, ...read more",
+                "price": 5496.0,
+                "attributes": {
+                    "veg_nonveg": "Non-Veg",
+                    "category": "Dim Sums | Gyoza",
+                    "spice_level": 1
+                }
+            },
+            {
+                "name": "Spicy Shanghai Dim Sum",
+                "description": "6 Pcs Tender dumplings filled with a spicy mix of vegetables, steamed to ...read more",
+                "price": 4296.0,
+                "attributes": {
+                    "veg_nonveg": "Veg",
+                    "category": "Dim Sums | Gyoza",
+                    "spice_level": 2
+                }
+            },
+            {
+                "name": "Spicy Smoked Chicken Dim Sum",
+                "description": "6 Pcs Bold dumplings filled with smoky, spicy chicken mixture, steamed to perfection.",
+                "price": 4996.0,
+                "attributes": {
+                    "veg_nonveg": "Non-Veg",
+                    "category": "Dim Sums | Gyoza",
+                    "spice_level": 2
+                }
+            },
+            {
+                "name": "Spring Onion And Cheese Gyoza",
+                "description": "Mix Of Cream Cheese, Spring Onion,",
+                "price": 449.0,
+                "attributes": {
+                    "veg_nonveg": "Veg",
+                    "category": "Dim Sums | Gyoza",
+                    "spice_level": 1
+                }
+            },
+            {
+                "name": "Veg Sui Mai Dimsum",
+                "description": "6 Pcs Tender steamed dumplings filled with a flavourful mix of vegetables, wrapped ...read more",
+                "price": 4296.0,
+                "attributes": {
+                    "veg_nonveg": "Veg",
+                    "category": "Dim Sums | Gyoza",
+                    "spice_level": 1
+                }
+            },
+            {
                 "name": "Crispy Chicken Cheung Fun",
                 "description": "Tender rice rolls wrapped around crispy chicken, served with a tangy dipping sauce.",
                 "price": 549.0,
@@ -6172,7 +4912,7 @@
                 }
             },
             {
-                "name": "Avocado Cream Cheese SushiBESTSELLER",
+                "name": "Avocado Cream Cheese Sushi",
                 "description": "8 Pcs Tempura avocado and cream cheese.",
                 "price": 6798.0,
                 "attributes": {
@@ -6192,7 +4932,7 @@
                 }
             },
             {
-                "name": "Crunchy Vegetable Frito SushiBESTSELLER",
+                "name": "Crunchy Vegetable Frito Sushi",
                 "description": "8 Pcs Mix vegetables tempura rolls fried in tempura batter",
                 "price": 6298.0,
                 "attributes": {
@@ -6733,7 +5473,7 @@
             },
             {
                 "name": "Fragrant Pot Rice",
-                "description": "BESTSELLER",
+                "description": "",
                 "price": 399.0,
                 "attributes": {
                     "veg_nonveg": "Veg",
@@ -6743,7 +5483,7 @@
             },
             {
                 "name": "Fried Rice",
-                "description": "BESTSELLER",
+                "description": "",
                 "price": 319.0,
                 "attributes": {
                     "veg_nonveg": "Veg",
@@ -6753,7 +5493,7 @@
             },
             {
                 "name": "Nasi Goreng",
-                "description": "BESTSELLER",
+                "description": "",
                 "price": 399.0,
                 "attributes": {
                     "veg_nonveg": "Veg",
@@ -6763,7 +5503,7 @@
             },
             {
                 "name": "Pad Thai Noodles",
-                "description": "BESTSELLER",
+                "description": "",
                 "price": 369.0,
                 "attributes": {
                     "veg_nonveg": "Veg",
@@ -6773,7 +5513,7 @@
             },
             {
                 "name": "Spicy Udon Stir Fry Noodles",
-                "description": "BESTSELLER",
+                "description": "",
                 "price": 369.0,
                 "attributes": {
                     "veg_nonveg": "Veg",
@@ -6783,7 +5523,7 @@
             },
             {
                 "name": "Steamed Jasmine Rice",
-                "description": "BESTSELLER",
+                "description": "",
                 "price": 349.0,
                 "attributes": {
                     "veg_nonveg": "Veg",
@@ -6793,7 +5533,7 @@
             },
             {
                 "name": "Steamed Rice",
-                "description": "BESTSELLER",
+                "description": "",
                 "price": 299.0,
                 "attributes": {
                     "veg_nonveg": "Veg",
@@ -6803,7 +5543,7 @@
             },
             {
                 "name": "Truffle Edamame Rice",
-                "description": "BESTSELLER",
+                "description": "",
                 "price": 449.0,
                 "attributes": {
                     "veg_nonveg": "Veg",
@@ -6822,42 +5562,12 @@
                 }
             },
             {
-                "name": "Wok Tossed Hakka NoodlesBESTSELLER",
-                "description": "BESTSELLER",
+                "name": "Wok Tossed Hakka Noodles",
+                "description": "",
                 "price": 329.0,
                 "attributes": {
                     "veg_nonveg": "Veg",
                     "category": "Staples",
-                    "spice_level": 1
-                }
-            },
-            {
-                "name": "Bekti Fish",
-                "description": "",
-                "price": 749.0,
-                "attributes": {
-                    "veg_nonveg": "Non-Veg",
-                    "category": "Premium Collection",
-                    "spice_level": 1
-                }
-            },
-            {
-                "name": "Crab Meat",
-                "description": "",
-                "price": 949.0,
-                "attributes": {
-                    "veg_nonveg": "Non-Veg",
-                    "category": "Premium Collection",
-                    "spice_level": 1
-                }
-            },
-            {
-                "name": "Lobster",
-                "description": "",
-                "price": 1849.0,
-                "attributes": {
-                    "veg_nonveg": "Non-Veg",
-                    "category": "Premium Collection",
                     "spice_level": 1
                 }
             },
@@ -7037,7 +5747,7 @@
         "type": "Restaurant",
         "name": "Tanatan",
         "url": "/lucknow/tanatan-hazratganj",
-        "opening_hours": "12noon \u2013 12midnight (Today)",
+        "opening_hours": "Opens at 12noon",
         "address": {
             "street": "94, Ground & 1st Floor, Durga Bhawan, Mahatma Gandhi Marg, Mall Road, Hazratganj, Lucknow",
             "locality": "Hazratganj, Lucknow",
@@ -7268,7 +5978,7 @@
                 }
             },
             {
-                "name": "Non Veg StartersPeshawari Murgh TikkaBESTSELLER",
+                "name": "Non Veg StartersPeshawari Murgh Tikka",
                 "description": "Non Veg Starters",
                 "price": 521.0,
                 "attributes": {
@@ -7278,7 +5988,7 @@
                 }
             },
             {
-                "name": "Peshawari Murgh TikkaBESTSELLER",
+                "name": "Peshawari Murgh Tikka",
                 "description": "Succulent chicken in a rich, creamy subtly spiced marinade.",
                 "price": 521.0,
                 "attributes": {
@@ -7288,7 +5998,7 @@
                 }
             },
             {
-                "name": "Nawabi Murgh TikkaBESTSELLER",
+                "name": "Nawabi Murgh Tikka",
                 "description": "Nawabi Murgh Tikka is a royal nawabi-style chicken delicacy marinated in rich, creamy ...read more",
                 "price": 508.0,
                 "attributes": {
@@ -7318,7 +6028,7 @@
                 }
             },
             {
-                "name": "Mutton Pepper FrySPICYBESTSELLER",
+                "name": "Mutton Pepper FrySPICY",
                 "description": "A spicy Kerala delicacy.",
                 "price": 521.0,
                 "attributes": {
@@ -7368,7 +6078,7 @@
                 }
             },
             {
-                "name": "Bhuna ChaapBESTSELLER",
+                "name": "Bhuna Chaap",
                 "description": "Mutton chops slow roasted in a traditional handi and finished on a thick ...read more",
                 "price": 592.0,
                 "attributes": {
@@ -7448,7 +6158,7 @@
                 }
             },
             {
-                "name": "Kozhi Ghee Roast",
+                "name": "Kozhi Ghee RoastBESTSELLER",
                 "description": "Kozhi Ghee Roast is a fiery Mangalorean chicken dish cooked in rich, aromatic ...read more",
                 "price": 496.0,
                 "attributes": {
@@ -8108,7 +6818,7 @@
                 }
             },
             {
-                "name": "Shahi Tukda",
+                "name": "Shahi TukdaBESTSELLER",
                 "description": "Homemade bread triangle shallow fired in amul ghee and soaked in syrup loaded ...read more",
                 "price": 446.0,
                 "attributes": {
@@ -8173,7 +6883,7 @@
         "type": "Restaurant",
         "name": "Curry Leaf",
         "url": "/lucknow/curry-leaf-kapoorthala",
-        "opening_hours": "10am \u2013 11pm (Today)",
+        "opening_hours": "Opens at 10am",
         "address": {
             "street": "C-6, Sector-F, Zone-12, Kapoorthala, Lucknow",
             "locality": "Kapoorthala, Lucknow",
@@ -8395,7 +7105,7 @@
             },
             {
                 "name": "Spicy Onion Vada [4 Pc S]",
-                "description": "BESTSELLER",
+                "description": "",
                 "price": 225.0,
                 "attributes": {
                     "veg_nonveg": "Veg",
@@ -8405,7 +7115,7 @@
             },
             {
                 "name": "Medu Vada [4 Pcs]",
-                "description": "BESTSELLER",
+                "description": "",
                 "price": 225.0,
                 "attributes": {
                     "veg_nonveg": "Veg",
@@ -8465,7 +7175,7 @@
             },
             {
                 "name": "Podi Idli",
-                "description": "BESTSELLER",
+                "description": "",
                 "price": 250.0,
                 "attributes": {
                     "veg_nonveg": "Veg",
@@ -8474,8 +7184,8 @@
                 }
             },
             {
-                "name": "Rava Idli [12 Pcs]BESTSELLER",
-                "description": "BESTSELLER",
+                "name": "Rava Idli [12 Pcs]",
+                "description": "",
                 "price": 225.0,
                 "attributes": {
                     "veg_nonveg": "Veg",
@@ -8485,7 +7195,7 @@
             },
             {
                 "name": "Rava Idli [2 Pcs]",
-                "description": "BESTSELLER",
+                "description": "",
                 "price": 210.0,
                 "attributes": {
                     "veg_nonveg": "Veg",
@@ -8494,8 +7204,8 @@
                 }
             },
             {
-                "name": "Rice Idli [2 Pcs]BESTSELLER",
-                "description": "BESTSELLER",
+                "name": "Rice Idli [2 Pcs]",
+                "description": "",
                 "price": 215.0,
                 "attributes": {
                     "veg_nonveg": "Veg",
@@ -8704,7 +7414,7 @@
                 }
             },
             {
-                "name": "Paneer DosaBESTSELLER",
+                "name": "Paneer Dosa",
                 "description": "Its crispy Indian savory crepe with a delicious filling made from paneer",
                 "price": 299.0,
                 "attributes": {
@@ -8804,7 +7514,7 @@
                 }
             },
             {
-                "name": "Rava Onion Masala DosaBESTSELLER",
+                "name": "Rava Onion Masala Dosa",
                 "description": "Its crispy Indian savory crepe made with rava and potato masala and onion ...read more",
                 "price": 310.0,
                 "attributes": {
@@ -8924,7 +7634,7 @@
                 }
             },
             {
-                "name": "Uttapam MixBESTSELLER",
+                "name": "Uttapam Mix",
                 "description": "Mix- uttapam is a popular uttapam variant where these pancakes are topped with ...read more",
                 "price": 285.0,
                 "attributes": {
@@ -9789,7 +8499,7 @@
         "type": "Restaurant",
         "name": "Purple Basil",
         "url": "/lucknow/purple-basil-1-gomti-nagar",
-        "opening_hours": "12:30pm \u2013 11:30pm (Today)",
+        "opening_hours": "Opens at 12:30pm",
         "address": {
             "street": "Golf City, Near Best Price Walmart, Gomti Nagar, Lucknow",
             "locality": "Gomti Nagar, Lucknow",
@@ -9950,7 +8660,7 @@
                 }
             },
             {
-                "name": "Quesedilla (4 pieces)BESTSELLER",
+                "name": "Quesedilla (4 pieces)",
                 "description": "Bell pepper, onion, olives, jalapeno, sundried tomato and pepper jackcheese seasoned with fajita ...read more",
                 "price": 435.0,
                 "attributes": {
@@ -9971,7 +8681,7 @@
             },
             {
                 "name": "Avocado Toastie",
-                "description": "BESTSELLER",
+                "description": "",
                 "price": 400.0,
                 "attributes": {
                     "veg_nonveg": "Veg",
@@ -9981,7 +8691,7 @@
             },
             {
                 "name": "Assorted Veg Tandoori Seekh",
-                "description": "BESTSELLER",
+                "description": "",
                 "price": 535.0,
                 "attributes": {
                     "veg_nonveg": "Veg",
@@ -9991,7 +8701,7 @@
             },
             {
                 "name": "Crispy Onion Rings",
-                "description": "BESTSELLER",
+                "description": "",
                 "price": 315.0,
                 "attributes": {
                     "veg_nonveg": "Veg",
@@ -10000,8 +8710,8 @@
                 }
             },
             {
-                "name": "Crunchy Paneer ChilliBESTSELLER",
-                "description": "BESTSELLER",
+                "name": "Crunchy Paneer Chilli",
+                "description": "",
                 "price": 435.0,
                 "attributes": {
                     "veg_nonveg": "Veg",
@@ -10011,7 +8721,7 @@
             },
             {
                 "name": "Crispy Corn Salt & Pepper",
-                "description": "BESTSELLER",
+                "description": "",
                 "price": 445.0,
                 "attributes": {
                     "veg_nonveg": "Veg",
@@ -10021,7 +8731,7 @@
             },
             {
                 "name": "Honey Chilli Potato",
-                "description": "BESTSELLER",
+                "description": "",
                 "price": 415.0,
                 "attributes": {
                     "veg_nonveg": "Veg",
@@ -10031,7 +8741,7 @@
             },
             {
                 "name": "Jalepeno Cheese Poppers",
-                "description": "BESTSELLER",
+                "description": "",
                 "price": 445.0,
                 "attributes": {
                     "veg_nonveg": "Veg",
@@ -10041,7 +8751,7 @@
             },
             {
                 "name": "Stuffed Tandoori Aloo",
-                "description": "BESTSELLER",
+                "description": "",
                 "price": 415.0,
                 "attributes": {
                     "veg_nonveg": "Veg",
@@ -10061,7 +8771,7 @@
             },
             {
                 "name": "Veg Shami Kebab",
-                "description": "BESTSELLER",
+                "description": "",
                 "price": 435.0,
                 "attributes": {
                     "veg_nonveg": "Non-Veg",
@@ -10071,7 +8781,7 @@
             },
             {
                 "name": "Tandoori Veg Platter",
-                "description": "BESTSELLER",
+                "description": "",
                 "price": 625.0,
                 "attributes": {
                     "veg_nonveg": "Veg",
@@ -10080,7 +8790,7 @@
                 }
             },
             {
-                "name": "Non- vegetarianMutton Seekh Kebab",
+                "name": "Non- vegetarianMutton Seekh KebabBESTSELLER",
                 "description": "Non- vegetarian",
                 "price": 490.0,
                 "attributes": {
@@ -10090,8 +8800,8 @@
                 }
             },
             {
-                "name": "Mutton Seekh Kebab",
-                "description": "",
+                "name": "Mutton Seekh KebabBESTSELLER",
+                "description": "BESTSELLER",
                 "price": 490.0,
                 "attributes": {
                     "veg_nonveg": "Non-Veg",
@@ -10321,7 +9031,7 @@
             },
             {
                 "name": "Tomato Pesto Risotto",
-                "description": "",
+                "description": "BESTSELLER",
                 "price": 500.0,
                 "attributes": {
                     "veg_nonveg": "Veg",
@@ -10330,8 +9040,8 @@
                 }
             },
             {
-                "name": "Barbeque Chicken Risotto",
-                "description": "",
+                "name": "Barbeque Chicken RisottoBESTSELLER",
+                "description": "BESTSELLER",
                 "price": 525.0,
                 "attributes": {
                     "veg_nonveg": "Non-Veg",
@@ -10471,7 +9181,7 @@
             },
             {
                 "name": "Bean And Corn Dimsum",
-                "description": "",
+                "description": "BESTSELLER",
                 "price": 225.0,
                 "attributes": {
                     "veg_nonveg": "Veg",
@@ -10480,8 +9190,8 @@
                 }
             },
             {
-                "name": "Golden Garlic Mushroom",
-                "description": "",
+                "name": "Golden Garlic MushroomBESTSELLER",
+                "description": "BESTSELLER",
                 "price": 225.0,
                 "attributes": {
                     "veg_nonveg": "Veg",
@@ -10491,7 +9201,7 @@
             },
             {
                 "name": "Fried Veg Wonton",
-                "description": "",
+                "description": "BESTSELLER",
                 "price": 225.0,
                 "attributes": {
                     "veg_nonveg": "Veg",
@@ -10501,7 +9211,7 @@
             },
             {
                 "name": "Edamame Cream Cheese Yellow Curry(New)",
-                "description": "",
+                "description": "BESTSELLER",
                 "price": 225.0,
                 "attributes": {
                     "veg_nonveg": "Veg",
@@ -10511,7 +9221,7 @@
             },
             {
                 "name": "Golden Garlic Mushroom (3Pcs)",
-                "description": "",
+                "description": "BESTSELLER",
                 "price": 225.0,
                 "attributes": {
                     "veg_nonveg": "Veg",
@@ -10521,7 +9231,7 @@
             },
             {
                 "name": "Golden Garlic Mushroom (6Pcs)",
-                "description": "",
+                "description": "BESTSELLER",
                 "price": 455.0,
                 "attributes": {
                     "veg_nonveg": "Veg",
@@ -11450,7 +10160,7 @@
                 }
             },
             {
-                "name": "Pbs Paneer PyazaBESTSELLER",
+                "name": "Pbs Paneer Pyaza",
                 "description": "Paneer cubes cooked in a tomato and onion masala with a tangy finishing ...read more",
                 "price": 495.0,
                 "attributes": {
@@ -11501,7 +10211,7 @@
             },
             {
                 "name": "Mushroom With",
-                "description": "BESTSELLER",
+                "description": "",
                 "price": 425.0,
                 "attributes": {
                     "veg_nonveg": "Veg",
@@ -11511,7 +10221,7 @@
             },
             {
                 "name": "Mushroom Tawa Masala",
-                "description": "BESTSELLER",
+                "description": "",
                 "price": 520.0,
                 "attributes": {
                     "veg_nonveg": "Veg",
@@ -11521,7 +10231,7 @@
             },
             {
                 "name": "Paneer Butter Masala",
-                "description": "BESTSELLER",
+                "description": "",
                 "price": 495.0,
                 "attributes": {
                     "veg_nonveg": "Veg",
@@ -11531,7 +10241,7 @@
             },
             {
                 "name": "Paneer With",
-                "description": "BESTSELLER",
+                "description": "",
                 "price": 425.0,
                 "attributes": {
                     "veg_nonveg": "Veg",
@@ -11541,7 +10251,7 @@
             },
             {
                 "name": "Pbs Special Dum Aloo",
-                "description": "BESTSELLER",
+                "description": "",
                 "price": 465.0,
                 "attributes": {
                     "veg_nonveg": "Veg",
@@ -11551,7 +10261,7 @@
             },
             {
                 "name": "Angoori Kofta",
-                "description": "BESTSELLER",
+                "description": "",
                 "price": 490.0,
                 "attributes": {
                     "veg_nonveg": "Veg",
@@ -11561,7 +10271,7 @@
             },
             {
                 "name": "Burnt Garlic Fried Rice",
-                "description": "BESTSELLER",
+                "description": "",
                 "price": 425.0,
                 "attributes": {
                     "veg_nonveg": "Veg",
@@ -11571,7 +10281,7 @@
             },
             {
                 "name": "Classic Fried Rice",
-                "description": "BESTSELLER",
+                "description": "",
                 "price": 425.0,
                 "attributes": {
                     "veg_nonveg": "Veg",
@@ -11581,7 +10291,7 @@
             },
             {
                 "name": "Green Thai Curry",
-                "description": "BESTSELLER",
+                "description": "",
                 "price": 495.0,
                 "attributes": {
                     "veg_nonveg": "Veg",
@@ -11591,7 +10301,7 @@
             },
             {
                 "name": "Schezwan Noodles",
-                "description": "BESTSELLER",
+                "description": "",
                 "price": 425.0,
                 "attributes": {
                     "veg_nonveg": "Veg",
@@ -11601,7 +10311,7 @@
             },
             {
                 "name": "Schezwan Rice",
-                "description": "BESTSELLER",
+                "description": "",
                 "price": 425.0,
                 "attributes": {
                     "veg_nonveg": "Veg",
@@ -11611,7 +10321,7 @@
             },
             {
                 "name": "Vegetables With",
-                "description": "BESTSELLER",
+                "description": "",
                 "price": 425.0,
                 "attributes": {
                     "veg_nonveg": "Veg",
@@ -11621,7 +10331,7 @@
             },
             {
                 "name": "Red Thai Curry",
-                "description": "BESTSELLER",
+                "description": "",
                 "price": 495.0,
                 "attributes": {
                     "veg_nonveg": "Veg",

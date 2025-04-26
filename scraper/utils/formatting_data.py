@@ -1,7 +1,7 @@
 import json
 
 # Load raw data
-with open("../data/Restaurants.json", "r", encoding="utf-8") as infile:
+with open("./Restaurants.json", "r", encoding="utf-8") as infile:
     raw_data = json.load(infile)
 
 cleaned_data = []
@@ -66,5 +66,5 @@ for entry in raw_data:
     cleaned_data.append(cleaned_entry)
 
 # Save cleaned data
-with open("../data/knowledgebase.json", "w", encoding="utf-8") as outfile:
+with open("./data/knowledgebase.json", "w", encoding="utf-8") as outfile:
     json.dump(cleaned_data, outfile, indent=2, ensure_ascii=False)
