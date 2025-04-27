@@ -1,6 +1,31 @@
-# Zomato Restaurant RAG Chatbot 🍽️
+# HungryBot: Restaurant Data Scraper & RAG-based Chatbot 🍽️🤖
 
 An intelligent restaurant recommendation system that combines web scraping, RAG (Retrieval Augmented Generation), and a conversational interface to provide personalized dining suggestions.
+
+<div align="center">
+  
+[![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://www.python.org/downloads/)
+[![MongoDB](https://img.shields.io/badge/MongoDB-Latest-green.svg)](https://www.mongodb.com/)
+[![Streamlit](https://img.shields.io/badge/Streamlit-Latest-red.svg)](https://streamlit.io/)
+[![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![Pinecone](https://img.shields.io/badge/Pinecone-Latest-purple.svg)](https://www.pinecone.io/)
+[![Google Gemini](https://img.shields.io/badge/Gemini-AI-orange.svg)](https://deepmind.google/technologies/gemini/)
+[![FastAPI](https://img.shields.io/badge/FastAPI-0.68+-green.svg)](https://fastapi.tiangolo.com/)
+[![Playwright](https://img.shields.io/badge/Playwright-Latest-lightgrey.svg)](https://playwright.dev/)
+[![BeautifulSoup](https://img.shields.io/badge/BeautifulSoup4-Latest-blue.svg)](https://www.crummy.com/software/BeautifulSoup/)
+[![Motor](https://img.shields.io/badge/Motor-3.0+-darkgreen.svg)](https://motor.readthedocs.io/)
+
+</div>
+
+## 📑 Table of Contents
+- [Demo & Screenshots](#-screenshots--demo)
+- [Features](#-features)
+- [System Architecture](#-system-architecture)
+- [Technology Stack](#-technology-stack)
+- [Getting Started](#-getting-started)
+- [Technical Documentation](#-technical-documentation)
+- [Contributing](#-contributing)
+- [License](#-license)
 
 ## 📸 Screenshots & Demo
 
@@ -20,11 +45,11 @@ Check out our demo video to see the chatbot in action:
 
 #### Menu Exploration
 ![Menu Exploration](screenshots/menu-view.png)
-*Detailed menu view with prices and categories*
+*Detailed menu view*
 
-#### Upload Data Interface
-![Upload Data Interface](screenshots/upload-data.png)
-*Uploading new data*
+#### Upload Data
+![Upload Data](screenshots/upload-data.png)
+*Upload fresh data*
 
 ## 🌟 Features
 
@@ -62,10 +87,44 @@ Check out our demo video to see the chatbot in action:
 - Loading state indicators
 - Markdown formatting support
 
+## 🏗 System Architecture
+
+### High-Level Architecture
+```
+┌─────────────────┐     ┌─────────────────┐     ┌─────────────────┐
+│   Web Scraper   │ ──► │  Data Pipeline  │ ──► │  Vector Store   │
+└─────────────────┘     └─────────────────┘     └─────────────────┘
+                                                         ▲
+┌─────────────────┐     ┌─────────────────┐            │
+│    Streamlit    │ ◄─► │   RAG Engine    │ ───────────┘
+└─────────────────┘     └─────────────────┘
+```
+
+### Component Overview
+1. **Web Scraper Layer**
+   - Playwright for dynamic content
+   - Async scraping for performance
+   - Rate limiting and retry logic
+
+2. **Data Pipeline**
+   - MongoDB for structured storage
+   - Data cleaning and normalization
+   - Vector embedding generation
+
+3. **RAG Engine**
+   - Pinecone for vector similarity search
+   - Google Gemini for text generation
+   - Custom prompt engineering
+
+4. **Frontend Layer**
+   - Streamlit for UI rendering
+   - WebSocket for real-time updates
+   - Session management
+
 ## 🛠️ Technology Stack
 
 ### Core Technologies
-- Python 3.x
+- Python 3.8+
 - MongoDB (with Motor for async operations)
 - Pinecone Vector Database
 - Google Gemini AI
@@ -80,21 +139,81 @@ Check out our demo video to see the chatbot in action:
 - Google Generative AI
 - Python-dotenv
 
-## 📋 Requirements
+## 📖 Technical Documentation
 
-```bash
-pymongo              # MongoDB driver
-pinecone-client      # Vector database client
-python-dotenv        # Environment management
-fastapi              # API framework
-playwright           # Web automation
-bs4                  # Web scraping
-requests             # HTTP client
-google-generativeai  # LLM integration
-streamlit            # UI framework
-motor                # Async MongoDB
-uvicorn              # ASGI server
-```
+### Implementation Details
+
+#### Data Flow
+1. **Scraping Pipeline**
+   ```python
+   URL → Playwright → Raw HTML → BeautifulSoup → Structured Data → MongoDB
+   ```
+
+2. **Query Processing**
+   ```python
+   User Query → Vector Embedding → Similarity Search → Context Building → LLM → Response
+   ```
+
+#### Design Decisions
+
+1. **Choice of Vector Store**
+   - Pinecone selected for:
+     - Low latency querying
+     - Scalability
+     - Simple integration
+     - Cost-effectiveness
+
+2. **Async Implementation**
+   - Used async/await for:
+     - Improved scraping performance
+     - Better resource utilization
+     - Enhanced UI responsiveness
+
+3. **LLM Selection**
+   - Google Gemini chosen for:
+     - Superior context understanding
+     - Cost-effective API
+     - Reliable performance
+
+### Challenges & Solutions
+
+1. **Vector Search Accuracy**
+   - Challenge: Imprecise restaurant and menu matching
+   - Solution: Implemented hybrid search combining restaurant and menu item vectors in Pinecone
+
+2. **Data Quality**
+   - Challenge: Inconsistent restaurant data formats
+   - Solution: Implemented Pydantic models with strict validation (`Restaurant` and `MenuItem` classes)
+
+3. **Response Latency**
+   - Challenge: Slow chat responses
+   - Solution: Implemented async operations with Motor and optimized Gemini prompt generation
+
+### Future Improvements
+
+1. **AI/ML Enhancements**
+   - Implement few-shot learning for better context understanding
+   - Add sentiment analysis for restaurant review summarization
+   - Develop personalized ranking algorithms using collaborative filtering
+   - Integrate multimodal embeddings for image-text matching
+
+2. **Advanced Features**
+   - Real-time price prediction using time-series analysis
+   - Cross-restaurant dish comparison using semantic similarity
+   - Dynamic menu recommendations based on user dietary preferences
+   - AR-based dish visualization using mobile camera integration
+
+3. **System Architecture**
+   - Implement event-driven architecture using Apache Kafka
+   - Add vector database sharding for horizontal scaling
+   - Deploy microservices using Kubernetes
+   - Implement GraphQL API for flexible data querying
+
+4. **User Experience**
+   - Voice-based conversational interface
+   - Location-aware contextual recommendations
+   - Social features for sharing and group ordering
+   - Progressive Web App (PWA) for offline capabilities
 
 ## 🚀 Getting Started
 
@@ -135,46 +254,6 @@ cd rag
 streamlit run main.py
 ```
 
-## 🏗️ Project Structure
-
-```
-.
-├── scraper/
-│   ├── scrapers/
-│   │   ├── info_scraper.py
-│   │   └── menu_scraper.py
-│   ├── knowledge_base/
-│   │   └── build_kb.py
-│   └── main.py
-├── rag/
-│   ├── db/
-│   │   └── pine_utils.py
-│   ├── models/
-│   │   ├── restaurant.py
-│   │   └── menu_item.py
-│   ├── utils/
-│   │   ├── generatePrompt.py
-│   │   └── llm.py
-│   └── main.py
-└── requirements.txt
-```
-
-## 💡 Usage
-
-1. **Data Collection**:
-   - Add restaurant URLs to `scraper/main.py`
-   - Run the scraper to collect data
-   - Data is saved in JSON format
-
-2. **Knowledge Base**:
-   - Raw data is processed into a structured format
-   - Vector embeddings are created for efficient retrieval
-
-3. **Chat Interface**:
-   - Access the Streamlit interface
-   - Ask questions about restaurants
-   - Get AI-powered recommendations
-
 ## 🤝 Contributing
 
 1. Fork the repository
@@ -185,4 +264,8 @@ streamlit run main.py
 
 ## 📝 License
 
-This project is licensed under the MIT License - see the LICENSE file for details
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## 📞 Support
+
+For support, email 7055ranamanish@gmail.com.

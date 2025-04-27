@@ -15,7 +15,7 @@ from utils.llm import generate_content
 # Load environment variables
 load_dotenv()
 
-uri=os.getenv("MONGODB_URI")
+uri = os.getenv("MONGODB_URI")
 
 # MongoDB setup
 client = AsyncIOMotorClient(uri)
@@ -141,46 +141,94 @@ async def chat_bot(message):
 
     return response
 
-# ---------- STREAMLIT APP UI ----------
+# ---------- STREAMLIT APP UI (Improved) ----------
 
-st.set_page_config(page_title="Zomato RAG Chatbot", page_icon="🍽️", layout="wide")
+st.set_page_config(page_title="🍽️ HungryBot - Your Restaurant Guide", page_icon="🤖", layout="wide")
 
-st.title("🍽️ Zomato RAG Chatbot")
+# Custom CSS for header and chat bubbles
+st.markdown("""
+    <style>
+    .header-title {
+        text-align: center;
+        font-size: 50px;
+        font-weight: bold;
+        color: #FF6F00;
+        margin-bottom: 20px;
+    }
+    .user-message {
+        background-color: #D0F0FD;
+        color: #000000;
+        padding: 10px;
+        border-radius: 10px;
+        margin-bottom: 5px;
+        font-size: 18px;
+    }
+    .bot-message {
+        background-color: #FFF5BA;
+        color: #000000;
+        padding: 10px;
+        border-radius: 10px;
+        margin-bottom: 20px;
+        font-size: 18px;
+    }
+    </style>
+""", unsafe_allow_html=True)
 
-# Sidebar
-st.sidebar.title("Admin Actions")
-if st.sidebar.button("Upload Data"):
-    with st.spinner("Uploading data..."):
+# Big Chatbot Name
+st.markdown("<div class='header-title'>🤖 HungryBot</div>", unsafe_allow_html=True)
+
+# Sidebar controls
+st.sidebar.title("🔧 Admin Panel")
+
+if st.sidebar.button("🧹 Clear Chat History"):
+    st.session_state.messages = []
+
+st.sidebar.markdown("---")
+st.sidebar.markdown("**Quick Suggestions:**")
+for suggestion in [
+    "Which restaurant has the best vegetarian options in their menu?",
+    "Which restaurant have any gluten-free appetizers?",
+    "What's the price range for Purple Basil restaurant's dessert menu?",
+    "Compare the spice levels mentioned in the menus of restaurants Curry Leaf restaurant and Tanatan restaurant."
+]:
+    st.sidebar.markdown(f"- {suggestion}")
+
+st.sidebar.markdown("---")
+if st.sidebar.button("🚀 Upload Feast Data"):
+    with st.spinner("Cooking up fresh data... 🍲"):
         loop.run_until_complete(upload_data())
-    st.sidebar.success("Data uploaded successfully!")
+    st.sidebar.success("Knowledgebase updated! 🎉")
 
-# Initialize chat history
+# Initialize chat history or show intro
 if "messages" not in st.session_state:
     st.session_state.messages = []
 
-# Chat interface
-st.header("Talk to the Restaurant Database!")
+if not st.session_state.messages:
+    with st.chat_message("assistant"):
+        st.markdown("<div class='bot-message'>Hello, hungry friend! 🍽️ Ready to explore some tasty tidbits?</div>", unsafe_allow_html=True)
 
-for msg in st.session_state.messages:
-    if msg["role"] == "user":
-        with st.chat_message("user"):
-            st.markdown(msg["content"])
-    else:
-        with st.chat_message("assistant"):
-            st.markdown(msg["content"])
+# Display chat history (user and bot messages together)
+for i in range(0, len(st.session_state.messages), 2):
+    if i < len(st.session_state.messages):
+        user_msg = st.session_state.messages[i]
+        if user_msg["role"] == "user":
+            with st.chat_message("user"):
+                st.markdown(f"<div class='user-message'>{user_msg['content']}</div>", unsafe_allow_html=True)
+    if i + 1 < len(st.session_state.messages):
+        bot_msg = st.session_state.messages[i + 1]
+        if bot_msg["role"] == "assistant":
+            with st.chat_message("assistant"):
+                st.markdown(f"<div class='bot-message'>{bot_msg['content']}</div>", unsafe_allow_html=True)
 
 # User input
-if user_input := st.chat_input("Ask me anything about restaurants..."):
-    # Display user message
+if user_input := st.chat_input("Ask me anything... I'm all ears (and taste buds)! 🤤"):
     st.session_state.messages.append({"role": "user", "content": user_input})
     with st.chat_message("user"):
-        st.markdown(user_input)
+        st.markdown(f"<div class='user-message'>{user_input}</div>", unsafe_allow_html=True)
 
-    # Generate bot response
     with st.chat_message("assistant"):
-        with st.spinner("Thinking..."):
+        with st.spinner("Putting on my chef hat... 👩‍🍳"):
             bot_response = loop.run_until_complete(chat_bot(user_input))
-            st.markdown(bot_response)
+        st.markdown(f"<div class='bot-message'>{bot_response}</div>", unsafe_allow_html=True)
 
-    # Save assistant response
     st.session_state.messages.append({"role": "assistant", "content": bot_response})
