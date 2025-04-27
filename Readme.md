@@ -54,7 +54,7 @@ Check out our demo video to see the chatbot in action:
 ## 🌟 Features
 
 ### Web Scraping
-- Automated scraping of restaurant data from Zomato
+- Automated scraping of restaurant data
 - Extracts comprehensive restaurant information including:
   - Basic details (name, address, ratings)
   - Menu items with prices and categories
