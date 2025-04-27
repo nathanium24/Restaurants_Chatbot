@@ -1,64 +1,64 @@
 from pinecone import Pinecone
-import os
 
-# Initialize Pinecone client and create an index with integrated inference
-pc = Pinecone(api_key=os.getenv("PINECONE_API_KEY"))
+pc = Pinecone(api_key="pcsk_7WvWm8_CXpDZBAqGkM5UfHavGU2Wbp2uCQ9imE2enwS1MJquMKHDU9HJGf7X5rxBo1xLWq")
 
-# Create a dense index using Llama integrated embedding if it doesn't exist
-INDEX_NAME = "zomato-rag"
-try:
-    pc.create_index_for_model(
-        name=INDEX_NAME,
-        cloud="aws",
-        region="us-east-1",
-        embed={
-            "model": "llama-text-embed-v2",
-            "field_map": {"text": "text"}
-        }
-    )
-except Exception:
-    # Index may already exist
-    pass
+# Create a dense index with integrated inference
+index_name = "llama-text-embed-v2"
 
-# Connect to the index
-index = pc.Index(INDEX_NAME)
+# pc.create_index_for_model(
+#     name=index_name,
+#     cloud="aws",
+#     region="us-east-1",
+#     embed={
+#         "model": "llama-text-embed-v2",
+#         "field_map": {
+#             "text": "text"  # Map the record field to be embedded
+#         }
+#     }
+# )
 
-async def upsert_data(
-    id: str,
-    text: str,
-    namespace: str = None
-) -> None:
-    """Upsert a text record into Pinecone using integrated embeddings."""
-    record = {
-        "id": id,                     # e.g., MongoDB Restaurant or Menu item ID
-        "text": text                  # raw text to embed
-    }
+index = pc.Index(index_name)
+
+async def upsert_data(text: str, id: str, type_item: str) -> None:
+    """Pinecone util function to upsert data into the db."""
     try:
+        if type_item == "menu":
+            id = id + " menu"
+        else:
+            id = id + " resturant"
+            
         index.upsert_records(
-            namespace=namespace,
-            records=[record]
+            namespace="Example",
+            records=[
+                {
+                    "id": id,  # Same as that of mongoDB's Resturant or Menu item ID
+                    "text": text,
+                }
+            ]
         )
+        print("Data upserted successfully.")
+        
     except Exception as e:
-        # Handle or re-raise exception as needed
         raise e
-
+    
 async def fetch_data(
-    query_text: str,
-    top_k: int = 3,
-    namespace: str = None
+    query: str,
+    top_k: int = 10
 ) -> list:
-    """Perform similarity search over text records using integrated embeddings."""
-    query_payload = {
-        "inputs": {"text": query_text},
-        "top_k": top_k
-    }
+    """Pinecone util function to perform similarity search in the db."""
     try:
+        query_payload = {
+            "inputs": {
+                "text": query
+            },
+            "top_k": top_k,
+        }
         result = index.search(
-            namespace=namespace,
-            query=query_payload,
-            include_metadata=True
+            namespace="Example",
+            query=query_payload
         )
-        return result.get("matches", [])
+
+        return result['result']['hits']
+    
     except Exception as e:
-        # Handle or re-raise exception as needed
         raise e

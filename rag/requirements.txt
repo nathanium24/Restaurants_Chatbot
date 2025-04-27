@@ -1,5 +1,0 @@
-pymongo
-pinecone-client
-python-dotenv
-fastapi
-uvicorn

@@ -4,12 +4,12 @@ from bson import ObjectId
 
 class Restaurant(BaseModel):
     name: str
-    location: str
-    phone: str
-    menu_items: List[str]  # list of MenuItem IDs (as strings for simplicity)
+    address: str
+    phone_number: str
+    menu_items: Optional[List[str]] = [] # list of MenuItem IDs (as strings for simplicity)
     rating: Optional[float] = None
-    opening_hour: str
+    opening_hours: str
     dietary_options: Optional[List[str]] = []
     price_range: str
-    cuisine: Optional[List[str]] = []
+    cuisine: Optional[str] = []
     is_open: Optional[bool] = Field(default=True)

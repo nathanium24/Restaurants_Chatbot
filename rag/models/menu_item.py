@@ -1,10 +1,9 @@
 from pydantic import BaseModel, Field
-from typing import Optional
+from typing import Dict, Union
 
 class MenuItem(BaseModel):
     name: str
-    description: str
+    description: str = Field(default="")  # Description can be empty string
     price: float
-    is_veg: Optional[bool] = Field(default=None) 
-    category: str
-    resturant_id: str = Field(..., description="The ID of the restaurant this menu item belongs to")
+    attributes: Dict[str, Union[str, int]]
+    restaurant_id: str  # Foreign key reference to the restaurant
