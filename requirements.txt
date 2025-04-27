@@ -1,2 +1,10 @@
+pymongo
+pinecone-client
+python-dotenv
 fastapi
+playwright
+bs4
+requests
+google-generativeai
+streamlit
 uvicorn

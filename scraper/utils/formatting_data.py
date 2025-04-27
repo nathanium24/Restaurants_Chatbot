@@ -69,5 +69,5 @@ for entry in raw_data:
     cleaned_data.append(cleaned_entry)
 
 # Save cleaned data
-with open("knowledgebase.json", "w", encoding="utf-8") as outfile:
+with open("./data/knowledgebase.json", "w", encoding="utf-8") as outfile:
     json.dump(cleaned_data, outfile, indent=2, ensure_ascii=False)
