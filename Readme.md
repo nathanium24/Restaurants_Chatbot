@@ -31,7 +31,7 @@ An intelligent restaurant recommendation system that combines web scraping, RAG 
 
 ### Demo Video
 Check out our demo video to see the chatbot in action:
-[Watch Demo Video](https://youtu.be/your-video-link)
+[Watch Demo Video](https://youtu.be/Su5_hKHqq1o)
 
 ### UI Screenshots
 

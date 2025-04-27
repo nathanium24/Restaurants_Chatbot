@@ -1,11 +1,45 @@
-pymongo
-pinecone-client
-python-dotenv
-fastapi
-playwright
-bs4
-requests
-google-generativeai
-streamlit
-motor
-uvicorn
+# Core Dependencies
+python-dotenv==1.0.0
+fastapi==0.109.0
+uvicorn==0.27.0
+streamlit==1.30.0
+
+# Database & Vector Store
+pymongo==4.6.1
+motor==3.3.2  # Async MongoDB driver
+pinecone-client==3.0.0
+redis==5.0.1  # For caching
+
+# AI & ML
+google-generativeai==0.3.2
+sentence-transformers==2.2.2  # For text embeddings
+pydantic==2.5.3  # For data validation
+
+# Web Scraping
+playwright==1.41.0
+beautifulsoup4==4.12.2
+requests==2.31.0
+aiohttp==3.9.1  # For async HTTP requests
+fake-useragent==1.4.0  # For rotating user agents
+
+# Data Processing
+pandas==2.1.4
+numpy==1.24.3
+python-dateutil==2.8.2
+
+# Testing & Development
+pytest==7.4.4
+pytest-asyncio==0.23.3
+black==23.12.1
+flake8==7.0.0
+mypy==1.8.0
+
+# Utilities
+tqdm==4.66.1  # For progress bars
+loguru==0.7.2  # For better logging
+python-multipart==0.0.6  # For file uploads
+aiofiles==23.2.1  # For async file operations
+
+# Optional but Recommended
+httpx==0.26.0  # For async HTTP client
+tenacity==8.2.3  # For retries
