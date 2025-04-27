@@ -1,6 +1,12 @@
 from pinecone import Pinecone
+import os
+from dotenv import load_dotenv
 
-pc = Pinecone(api_key="pcsk_7WvWm8_CXpDZBAqGkM5UfHavGU2Wbp2uCQ9imE2enwS1MJquMKHDU9HJGf7X5rxBo1xLWq")
+load_dotenv()
+
+pinecone_api=os.getenv("PINECONE_API_KEY")
+
+pc = Pinecone(api_key=pinecone_api)
 
 # Create a dense index with integrated inference
 index_name = "llama-text-embed-v2"

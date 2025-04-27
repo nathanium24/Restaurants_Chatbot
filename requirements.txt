@@ -7,4 +7,5 @@ bs4
 requests
 google-generativeai
 streamlit
+motor
 uvicorn
