@@ -52,7 +52,7 @@ An intelligent restaurant recommendation system that combines web scraping, RAG 
 ### Web Scraping
 - Automated scraping of restaurant data
 - Extracts comprehensive restaurant information including:
-  - Basic details (name, address, ratings)
+  - Basic details (name, address, ratings, location)
   - Menu items with prices and categories
   - Dietary options (veg/non-veg)
   - Operating hours
